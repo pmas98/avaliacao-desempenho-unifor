@@ -1,0 +1,14 @@
+/target/
+
+# Ignore editor-specific temporary files
+.*.swp
+.*.swo
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Ignore environment variable files if used
+.env
+.env.*
+
+# Ignore IDE specific files (e.g., VS Code)
+.vscode/
