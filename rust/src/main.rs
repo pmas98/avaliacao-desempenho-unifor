@@ -49,7 +49,7 @@ struct BenchmarkResult {
 }
 
 fn load_test_data(size: usize) -> Vec<i32> {
-    let filename = format!("../test_data_{}.json", size);
+    let filename = format!("../data/test/test_data_{}.json", size);
     let file = File::open(&filename).expect("Não foi possível abrir o arquivo");
     let reader = BufReader::new(file);
 

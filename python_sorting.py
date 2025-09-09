@@ -32,7 +32,7 @@ def bubble_sort(arr: List[int]) -> List[int]:
 
 
 def load_test_data(size: int) -> List[int]:
-    filename = f"test_data_{size}.json"
+    filename = f"data/test/test_data_{size}.json"
     if not os.path.exists(filename):
         raise FileNotFoundError(f"Test data file {filename} not found. Run generate_test_data.py first.")
     
@@ -95,4 +95,4 @@ if __name__ == "__main__":
     
     with open("python_results.json", "w") as f:
         json.dump(results, f, indent=2)
-        
+

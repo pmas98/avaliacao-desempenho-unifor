@@ -46,7 +46,7 @@ func BubbleSort(arr []int) []int {
 }
 
 func LoadTestData(size int) ([]int, error) {
-	filename := fmt.Sprintf("test_data_%d.json", size)
+	filename := fmt.Sprintf("data/test/test_data_%d.json", size)
 
 	file, _ := os.Open(filename)
 

@@ -97,7 +97,7 @@ public class SortingBenchmark {
     }
     
     public static int[] loadTestData(int size) throws IOException {
-        String filename = String.format("test_data_%d.json", size);
+        String filename = String.format("data/test/test_data_%d.json", size);
         
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             StringBuilder jsonContent = new StringBuilder();
