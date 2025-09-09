@@ -46,7 +46,7 @@ func BubbleSort(arr []int) []int {
 }
 
 func LoadTestData(size int) ([]int, error) {
-	filename := fmt.Sprintf("test_data_%d.json", size)
+	filename := fmt.Sprintf("data/test/test_data_%d.json", size)
 
 	file, _ := os.Open(filename)
 
@@ -132,7 +132,7 @@ func main() {
 
 	results := RunBenchmarks()
 
-	jsonFile, _ := os.Create("go_results.json")
+	jsonFile, _ := os.Create("data/results/go_results.json")
 	defer jsonFile.Close()
 
 	encoder := json.NewEncoder(jsonFile)

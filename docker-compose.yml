@@ -1,0 +1,29 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: python/Dockerfile
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+  go:
+    build:
+      context: .
+      dockerfile: go/Dockerfile
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+  java:
+    build:
+      context: .
+      dockerfile: java/Dockerfile
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+  rust:
+    build:
+      context: .
+      dockerfile: rust/Dockerfile
+    volumes:
+      - ./data:/app/data
+    working_dir: /app

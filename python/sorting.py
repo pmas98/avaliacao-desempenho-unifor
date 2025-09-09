@@ -1,8 +1,9 @@
-import time
-import psutil
-import os
 import json
+import os
+import time
 from typing import List
+
+import psutil
 
 
 def insertion_sort(arr: List[int]) -> List[int]:
@@ -32,11 +33,13 @@ def bubble_sort(arr: List[int]) -> List[int]:
 
 
 def load_test_data(size: int) -> List[int]:
-    filename = f"test_data_{size}.json"
+    filename = f"data/test/test_data_{size}.json"
     if not os.path.exists(filename):
-        raise FileNotFoundError(f"Test data file {filename} not found. Run generate_test_data.py first.")
-    
-    with open(filename, 'r') as f:
+        raise FileNotFoundError(
+            f"Test data file {filename} not found. Run generate_test_data.py first."
+        )
+
+    with open(filename, "r") as f:
         return json.load(f)
 
 
@@ -47,44 +50,39 @@ def measure_memory():
 
 def benchmark_sorting_algorithm(algorithm, data: List[int], algorithm_name: str):
     initial_memory = measure_memory()
-    
+
     start_time = time.time()
-    
+
     algorithm(data)
-    
+
     end_time = time.time()
-    
+
     final_memory = measure_memory()
-    
+
     execution_time = end_time - start_time
     memory_used = final_memory - initial_memory
-    
+
     return {
-        'algorithm': algorithm_name,
-        'data_size': len(data),
-        'execution_time': execution_time,
-        'memory_used_mb': memory_used,
-        'initial_memory_mb': initial_memory,
-        'final_memory_mb': final_memory
+        "algorithm": algorithm_name,
+        "data_size": len(data),
+        "execution_time": execution_time,
+        "memory_used_mb": memory_used,
+        "initial_memory_mb": initial_memory,
+        "final_memory_mb": final_memory,
     }
 
 
 def run_benchmarks():
     sizes = [1000, 5000, 10000]
-    
-    algorithms = [
-        (insertion_sort, "Insertion Sort"),
-        (bubble_sort, "Bubble Sort")
-    ]
-    
+
+    algorithms = [(insertion_sort, "Insertion Sort"), (bubble_sort, "Bubble Sort")]
+
     results = []
-    
+
     for size in sizes:
-        
         test_data = load_test_data(size)
-        
+
         for algorithm, name in algorithms:
-            
             result = benchmark_sorting_algorithm(algorithm, test_data, name)
             results.append(result)
     return results
@@ -92,7 +90,6 @@ def run_benchmarks():
 
 if __name__ == "__main__":
     results = run_benchmarks()
-    
-    with open("python_results.json", "w") as f:
+
+    with open("data/results/python_results.json", "w") as f:
         json.dump(results, f, indent=2)
-        
