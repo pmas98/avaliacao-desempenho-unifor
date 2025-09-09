@@ -87,12 +87,6 @@ def run_benchmarks():
             
             result = benchmark_sorting_algorithm(algorithm, test_data, name)
             results.append(result)
-            
-            print(f"  Execution time: {result['execution_time']:.6f} seconds")
-            print(f"  Memory used: {result['memory_used_mb']:.2f} MB")
-            print(f"  Initial memory: {result['initial_memory_mb']:.2f} MB")
-            print(f"  Final memory: {result['final_memory_mb']:.2f} MB")
-    
     return results
 
 
