@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM golang:1.22-alpine AS build
 WORKDIR /app
-COPY go/ ./
+COPY languages/go/ ./
 RUN go build -o sorting
 
 FROM alpine:3.20

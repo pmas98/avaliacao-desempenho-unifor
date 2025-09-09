@@ -4,7 +4,7 @@ FROM rust:1.80-alpine AS build
 RUN apk add --no-cache musl-dev gcc libc-dev make
 
 WORKDIR /app
-COPY rust/. ./
+COPY languages/rust/. ./
 RUN cargo build --release
 
 FROM alpine:3.20
