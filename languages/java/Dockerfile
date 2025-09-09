@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM eclipse-temurin:21-jdk-alpine AS build
 WORKDIR /app
-COPY java/*.java ./
+COPY languages/java/*.java ./
 RUN javac SortingBenchmark.java
 
 FROM eclipse-temurin:21-jre-alpine
