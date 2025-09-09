@@ -2,49 +2,49 @@
   {
     "algorithm": "Insertion Sort",
     "data_size": 1000,
-    "execution_time": 0.000114268,
+    "execution_time": 0.000366412,
     "memory_used_mb": 0.0078125,
-    "initial_memory_mb": 0.08817291259765625,
-    "final_memory_mb": 0.09598541259765625
+    "initial_memory_mb": 0.0741424560546875,
+    "final_memory_mb": 0.0819549560546875
   },
   {
     "algorithm": "Bubble Sort",
     "data_size": 1000,
-    "execution_time": 0.000672757,
-    "memory_used_mb": 0.0078277587890625,
-    "initial_memory_mb": 0.0874786376953125,
-    "final_memory_mb": 0.095306396484375
+    "execution_time": 0.00127992,
+    "memory_used_mb": 0.0078125,
+    "initial_memory_mb": 0.073455810546875,
+    "final_memory_mb": 0.081268310546875
   },
   {
     "algorithm": "Insertion Sort",
     "data_size": 5000,
-    "execution_time": 0.002807816,
+    "execution_time": 0.008989751,
     "memory_used_mb": 0.0390625,
-    "initial_memory_mb": 0.12259674072265625,
-    "final_memory_mb": 0.16165924072265625
+    "initial_memory_mb": 0.10355377197265625,
+    "final_memory_mb": 0.14261627197265625
   },
   {
     "algorithm": "Bubble Sort",
     "data_size": 5000,
-    "execution_time": 0.014033494,
-    "memory_used_mb": 0.0390777587890625,
-    "initial_memory_mb": 0.1219482421875,
-    "final_memory_mb": 0.1610260009765625
+    "execution_time": 0.028690755,
+    "memory_used_mb": 0.0390625,
+    "initial_memory_mb": 0.1029052734375,
+    "final_memory_mb": 0.1419677734375
   },
   {
     "algorithm": "Insertion Sort",
     "data_size": 10000,
-    "execution_time": 0.010936428,
+    "execution_time": 0.018835456,
     "memory_used_mb": 0.078125,
-    "initial_memory_mb": 0.17740631103515625,
-    "final_memory_mb": 0.25553131103515625
+    "initial_memory_mb": 0.15834808349609375,
+    "final_memory_mb": 0.23647308349609375
   },
   {
     "algorithm": "Bubble Sort",
     "data_size": 10000,
-    "execution_time": 0.069080248,
+    "execution_time": 0.129507071,
     "memory_used_mb": 0.078125,
-    "initial_memory_mb": 0.1768646240234375,
-    "final_memory_mb": 0.2549896240234375
+    "initial_memory_mb": 0.15789794921875,
+    "final_memory_mb": 0.23602294921875
   }
 ]

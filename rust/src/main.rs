@@ -49,7 +49,7 @@ struct BenchmarkResult {
 }
 
 fn load_test_data(size: usize) -> Vec<i32> {
-    let filename = format!("../data/test/test_data_{}.json", size);
+    let filename = format!("data/test/test_data_{}.json", size);
     let file = File::open(&filename).expect("Não foi possível abrir o arquivo");
     let reader = BufReader::new(file);
 
@@ -117,7 +117,6 @@ fn run_benchmarks() -> Vec<BenchmarkResult> {
 fn main() {
     let results = run_benchmarks();
 
-    let json_file = File::create("../rust_results.json").expect("Erro ao criar arquivo de saída");
+    let json_file = File::create("data/results/rust_results.json").expect("Erro ao criar arquivo de saída");
     serde_json::to_writer_pretty(json_file, &results).expect("Erro ao escrever JSON");
 }
-

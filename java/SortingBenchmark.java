@@ -10,8 +10,8 @@ class BenchmarkResult {
     private double initialMemoryMB;
     private double finalMemoryMB;
 
-    public BenchmarkResult(String algorithm, int dataSize, double executionTime, 
-                          double memoryUsedMB, double initialMemoryMB, double finalMemoryMB) {
+    public BenchmarkResult(String algorithm, int dataSize, double executionTime,
+            double memoryUsedMB, double initialMemoryMB, double finalMemoryMB) {
         this.algorithm = algorithm;
         this.dataSize = dataSize;
         this.executionTime = executionTime;
@@ -22,24 +22,40 @@ class BenchmarkResult {
 
     public String toJson() {
         return String.format(
-            "{\n" +
-            "    \"algorithm\": \"%s\",\n" +
-            "    \"data_size\": %d,\n" +
-            "    \"execution_time\": %.6f,\n" +
-            "    \"memory_used_mb\": %.6f,\n" +
-            "    \"initial_memory_mb\": %.6f,\n" +
-            "    \"final_memory_mb\": %.6f\n" +
-            "  }",
-            algorithm, dataSize, executionTime, memoryUsedMB, initialMemoryMB, finalMemoryMB
-        );
+                "{\n" +
+                        "    \"algorithm\": \"%s\",\n" +
+                        "    \"data_size\": %d,\n" +
+                        "    \"execution_time\": %.6f,\n" +
+                        "    \"memory_used_mb\": %.6f,\n" +
+                        "    \"initial_memory_mb\": %.6f,\n" +
+                        "    \"final_memory_mb\": %.6f\n" +
+                        "  }",
+                algorithm, dataSize, executionTime, memoryUsedMB, initialMemoryMB, finalMemoryMB);
     }
 
-    public String getAlgorithm() { return algorithm; }
-    public int getDataSize() { return dataSize; }
-    public double getExecutionTime() { return executionTime; }
-    public double getMemoryUsedMB() { return memoryUsedMB; }
-    public double getInitialMemoryMB() { return initialMemoryMB; }
-    public double getFinalMemoryMB() { return finalMemoryMB; }
+    public String getAlgorithm() {
+        return algorithm;
+    }
+
+    public int getDataSize() {
+        return dataSize;
+    }
+
+    public double getExecutionTime() {
+        return executionTime;
+    }
+
+    public double getMemoryUsedMB() {
+        return memoryUsedMB;
+    }
+
+    public double getInitialMemoryMB() {
+        return initialMemoryMB;
+    }
+
+    public double getFinalMemoryMB() {
+        return finalMemoryMB;
+    }
 }
 
 class SortingAlgorithm {
@@ -51,19 +67,24 @@ class SortingAlgorithm {
         this.name = name;
     }
 
-    public Function<int[], int[]> getFunction() { return function; }
-    public String getName() { return name; }
+    public Function<int[], int[]> getFunction() {
+        return function;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
 
 public class SortingBenchmark {
-    
+
     public static int[] insertionSort(int[] arr) {
         int[] result = Arrays.copyOf(arr, arr.length);
-        
+
         for (int i = 1; i < result.length; i++) {
             int key = result[i];
             int j = i - 1;
-            
+
             while (j >= 0 && result[j] > key) {
                 result[j + 1] = result[j];
                 j--;
@@ -72,14 +93,14 @@ public class SortingBenchmark {
         }
         return result;
     }
-    
+
     public static int[] bubbleSort(int[] arr) {
         int[] result = Arrays.copyOf(arr, arr.length);
         int n = result.length;
-        
+
         for (int i = 0; i < n; i++) {
             boolean swapped = false;
-            
+
             for (int j = 0; j < n - i - 1; j++) {
                 if (result[j] > result[j + 1]) {
                     int temp = result[j];
@@ -88,48 +109,48 @@ public class SortingBenchmark {
                     swapped = true;
                 }
             }
-            
+
             if (!swapped) {
                 break;
             }
         }
         return result;
     }
-    
+
     public static int[] loadTestData(int size) throws IOException {
         String filename = String.format("data/test/test_data_%d.json", size);
-        
+
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             StringBuilder jsonContent = new StringBuilder();
             String line;
             while ((line = reader.readLine()) != null) {
                 jsonContent.append(line);
             }
-            
+
             return parseJsonArray(jsonContent.toString());
         } catch (FileNotFoundException e) {
             System.out.println("Arquivo " + filename + " não encontrado. Gerando dados aleatórios.");
             return generateRandomData(size);
         }
     }
-    
+
     private static int[] parseJsonArray(String json) {
         json = json.replaceAll("\\s", "").replace("[", "").replace("]", "");
-        
+
         if (json.isEmpty()) {
             return new int[0];
         }
-        
+
         String[] parts = json.split(",");
         int[] result = new int[parts.length];
-        
+
         for (int i = 0; i < parts.length; i++) {
             result[i] = Integer.parseInt(parts[i]);
         }
-        
+
         return result;
     }
-    
+
     private static int[] generateRandomData(int size) {
         Random random = new Random();
         int[] data = new int[size];
@@ -138,58 +159,56 @@ public class SortingBenchmark {
         }
         return data;
     }
-    
+
     public static double measureMemory() {
         Runtime runtime = Runtime.getRuntime();
         return (runtime.totalMemory() - runtime.freeMemory()) / 1024.0 / 1024.0;
     }
-    
-    public static BenchmarkResult benchmarkSortingAlgorithm(Function<int[], int[]> algorithm, 
-                                                           int[] data, String algorithmName) {
+
+    public static BenchmarkResult benchmarkSortingAlgorithm(Function<int[], int[]> algorithm,
+            int[] data, String algorithmName) {
         System.gc();
-        
+
         double initialMemory = measureMemory();
         long startTime = System.nanoTime();
-        
+
         int[] sortedData = algorithm.apply(data);
-        
+
         long endTime = System.nanoTime();
         double finalMemory = measureMemory();
-        
+
         double executionTime = (endTime - startTime) / 1_000_000_000.0;
         double memoryUsed = finalMemory - initialMemory;
-        
-        return new BenchmarkResult(algorithmName, data.length, executionTime, 
-                                  memoryUsed, initialMemory, finalMemory);
+
+        return new BenchmarkResult(algorithmName, data.length, executionTime,
+                memoryUsed, initialMemory, finalMemory);
     }
-    
+
     public static List<BenchmarkResult> runBenchmarks() throws IOException {
-        int[] sizes = {1000, 5000, 10000};
+        int[] sizes = { 1000, 5000, 10000 };
         List<SortingAlgorithm> algorithms = Arrays.asList(
-            new SortingAlgorithm(SortingBenchmark::insertionSort, "Insertion Sort"),
-            new SortingAlgorithm(SortingBenchmark::bubbleSort, "Bubble Sort")
-        );
-        
+                new SortingAlgorithm(SortingBenchmark::insertionSort, "Insertion Sort"),
+                new SortingAlgorithm(SortingBenchmark::bubbleSort, "Bubble Sort"));
+
         List<BenchmarkResult> results = new ArrayList<>();
-        
+
         for (int size : sizes) {
             int[] testData = loadTestData(size);
-            
+
             for (SortingAlgorithm alg : algorithms) {
                 BenchmarkResult result = benchmarkSortingAlgorithm(
-                    alg.getFunction(), testData, alg.getName()
-                );
+                        alg.getFunction(), testData, alg.getName());
                 results.add(result);
             }
         }
-        
+
         return results;
     }
-    
+
     private static void saveResultsToJson(List<BenchmarkResult> results) throws IOException {
-        try (PrintWriter writer = new PrintWriter(new FileWriter("java_results.json"))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("data/results/java_results.json"))) {
             writer.println("[");
-            
+
             for (int i = 0; i < results.size(); i++) {
                 writer.print(results.get(i).toJson());
                 if (i < results.size() - 1) {
@@ -198,27 +217,19 @@ public class SortingBenchmark {
                     writer.println();
                 }
             }
-            
+
             writer.println("]");
         }
     }
-    
+
     public static void main(String[] args) {
         try {
             Random random = new Random(System.nanoTime());
-            
+
             List<BenchmarkResult> results = runBenchmarks();
-            
+
             saveResultsToJson(results);
-            
-            System.out.println("Benchmark concluído. Resultados salvos em 'java_results.json'");
-            
-            System.out.println("\nResumo dos resultados:");
-            for (BenchmarkResult result : results) {
-                System.out.printf("%s (tamanho %d): %.6f segundos\n",
-                    result.getAlgorithm(), result.getDataSize(), result.getExecutionTime());
-            }
-            
+
         } catch (IOException e) {
             System.err.println("Erro durante o benchmark: " + e.getMessage());
             e.printStackTrace();
