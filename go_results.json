@@ -1,0 +1,50 @@
+[
+  {
+    "algorithm": "Insertion Sort",
+    "data_size": 1000,
+    "execution_time": 0.000194806,
+    "memory_used_mb": 0.0078125,
+    "initial_memory_mb": 0.1021270751953125,
+    "final_memory_mb": 0.1099395751953125
+  },
+  {
+    "algorithm": "Bubble Sort",
+    "data_size": 1000,
+    "execution_time": 0.001451913,
+    "memory_used_mb": 0.0078277587890625,
+    "initial_memory_mb": 0.1021728515625,
+    "final_memory_mb": 0.1100006103515625
+  },
+  {
+    "algorithm": "Insertion Sort",
+    "data_size": 5000,
+    "execution_time": 0.004449103,
+    "memory_used_mb": 0.0390625,
+    "initial_memory_mb": 0.13653564453125,
+    "final_memory_mb": 0.17559814453125
+  },
+  {
+    "algorithm": "Bubble Sort",
+    "data_size": 5000,
+    "execution_time": 0.027872022,
+    "memory_used_mb": 0.0390777587890625,
+    "initial_memory_mb": 0.1366424560546875,
+    "final_memory_mb": 0.17572021484375
+  },
+  {
+    "algorithm": "Insertion Sort",
+    "data_size": 10000,
+    "execution_time": 0.017583206,
+    "memory_used_mb": 0.078125,
+    "initial_memory_mb": 0.19134521484375,
+    "final_memory_mb": 0.26947021484375
+  },
+  {
+    "algorithm": "Bubble Sort",
+    "data_size": 10000,
+    "execution_time": 0.119887646,
+    "memory_used_mb": 0.078125,
+    "initial_memory_mb": 0.191558837890625,
+    "final_memory_mb": 0.269683837890625
+  }
+]
