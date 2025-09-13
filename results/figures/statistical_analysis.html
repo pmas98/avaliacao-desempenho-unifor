@@ -1,0 +1,63 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Statistical Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .significant { color: #d9534f; font-weight: bold; }
+            .not-significant { color: #5cb85c; }
+        </style>
+    </head>
+    <body>
+        <h1>Statistical Analysis Report</h1>
+        <h2>ANOVA Results</h2>
+        <p>Testing for significant differences between programming languages.</p>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>F-Statistic</th>
+                <th>P-Value</th>
+                <th>Significant (p < 0.05)</th>
+            </tr>
+    
+            <tr>
+                <td>execution_time</td>
+                <td>nan</td>
+                <td>nan</td>
+                <td class="not-significant">No</td>
+            </tr>
+        
+            <tr>
+                <td>final_memory_mb</td>
+                <td>nan</td>
+                <td>nan</td>
+                <td class="not-significant">No</td>
+            </tr>
+        
+            <tr>
+                <td>initial_memory_mb</td>
+                <td>nan</td>
+                <td>nan</td>
+                <td class="not-significant">No</td>
+            </tr>
+        
+            <tr>
+                <td>memory_used_mb</td>
+                <td>nan</td>
+                <td>nan</td>
+                <td class="not-significant">No</td>
+            </tr>
+        
+        </table>
+        <h2>Interpretation</h2>
+        <ul>
+            <li><strong>Significant results (p < 0.05)</strong>: There are statistically significant differences between languages for this metric.</li>
+            <li><strong>Non-significant results (p ≥ 0.05)</strong>: No statistically significant differences detected between languages.</li>
+        </ul>
+    </body>
+    </html>
+    

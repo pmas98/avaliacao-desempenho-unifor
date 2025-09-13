@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
+	"math"
 	"math/rand"
 	"os"
 	"runtime"
@@ -60,12 +62,19 @@ func LoadTestData(size int) ([]int, error) {
 }
 
 type BenchmarkResult struct {
-	Algorithm       string  `json:"algorithm"`
-	DataSize        int     `json:"data_size"`
-	ExecutionTime   float64 `json:"execution_time"`
-	MemoryUsedMB    float64 `json:"memory_used_mb"`
-	InitialMemoryMB float64 `json:"initial_memory_mb"`
-	FinalMemoryMB   float64 `json:"final_memory_mb"`
+	Algorithm           string  `json:"algorithm"`
+	DataSize            int     `json:"data_size"`
+	ExecutionTimeMean   float64 `json:"execution_time_mean"`
+	ExecutionTimeStd    float64 `json:"execution_time_std"`
+	ExecutionTimeMin    float64 `json:"execution_time_min"`
+	ExecutionTimeMax    float64 `json:"execution_time_max"`
+	MemoryUsedMBMean    float64 `json:"memory_used_mb_mean"`
+	MemoryUsedMBStd     float64 `json:"memory_used_mb_std"`
+	InitialMemoryMBMean float64 `json:"initial_memory_mb_mean"`
+	InitialMemoryMBStd  float64 `json:"initial_memory_mb_std"`
+	FinalMemoryMBMean   float64 `json:"final_memory_mb_mean"`
+	FinalMemoryMBStd    float64 `json:"final_memory_mb_std"`
+	Iterations          int     `json:"iterations"`
 }
 
 func MeasureMemory() float64 {
@@ -74,31 +83,102 @@ func MeasureMemory() float64 {
 	return float64(m.Alloc) / 1024 / 1024
 }
 
-func BenchmarkSortingAlgorithm(algorithm func([]int) []int, data []int, algorithmName string) BenchmarkResult {
-	runtime.GC()
+func calculateMean(values []float64) float64 {
+	if len(values) == 0 {
+		return 0.0
+	}
+	sum := 0.0
+	for _, v := range values {
+		sum += v
+	}
+	return sum / float64(len(values))
+}
 
-	initialMemory := MeasureMemory()
+func calculateStdDev(values []float64) float64 {
+	if len(values) <= 1 {
+		return 0.0
+	}
+	mean := calculateMean(values)
+	sumSquaredDiffs := 0.0
+	for _, v := range values {
+		sumSquaredDiffs += math.Pow(v-mean, 2)
+	}
+	return math.Sqrt(sumSquaredDiffs / float64(len(values)-1))
+}
 
-	startTime := time.Now()
+func calculateMin(values []float64) float64 {
+	if len(values) == 0 {
+		return 0.0
+	}
+	min := values[0]
+	for _, v := range values {
+		if v < min {
+			min = v
+		}
+	}
+	return min
+}
 
-	sortedData := algorithm(data)
+func calculateMax(values []float64) float64 {
+	if len(values) == 0 {
+		return 0.0
+	}
+	max := values[0]
+	for _, v := range values {
+		if v > max {
+			max = v
+		}
+	}
+	return max
+}
 
-	endTime := time.Now()
+func BenchmarkSortingAlgorithm(algorithm func([]int) []int, data []int, algorithmName string, iterations int) BenchmarkResult {
+	var executionTimes []float64
+	var memoryUsedValues []float64
+	var initialMemoryValues []float64
+	var finalMemoryValues []float64
 
-	finalMemory := MeasureMemory()
+	log.Printf("Starting benchmark for %s with %d elements (%d iterations)",
+		algorithmName, len(data), iterations)
 
-	executionTime := endTime.Sub(startTime)
-	memoryUsed := finalMemory - initialMemory
+	for i := 0; i < iterations; i++ {
+		runtime.GC()
 
-	_ = sortedData
+		initialMemory := MeasureMemory()
+		startTime := time.Now()
+
+		algorithm(data)
+
+		endTime := time.Now()
+		finalMemory := MeasureMemory()
+
+		executionTime := endTime.Sub(startTime)
+		memoryUsed := finalMemory - initialMemory
+
+		executionTimes = append(executionTimes, executionTime.Seconds())
+		memoryUsedValues = append(memoryUsedValues, memoryUsed)
+		initialMemoryValues = append(initialMemoryValues, initialMemory)
+		finalMemoryValues = append(finalMemoryValues, finalMemory)
+
+		// Log every iteration completion
+		log.Printf("Completed iteration %d/%d for %s - Time: %.6fs, Memory: %.2fMB",
+			i+1, iterations, algorithmName, executionTime.Seconds(), memoryUsed)
+	}
 
 	return BenchmarkResult{
-		Algorithm:       algorithmName,
-		DataSize:        len(data),
-		ExecutionTime:   executionTime.Seconds(),
-		MemoryUsedMB:    memoryUsed,
-		InitialMemoryMB: initialMemory,
-		FinalMemoryMB:   finalMemory,
+		Algorithm:           algorithmName,
+		DataSize:            len(data),
+		ExecutionTimeMean:   calculateMean(executionTimes),
+		ExecutionTimeStd:    calculateStdDev(executionTimes),
+		ExecutionTimeMin:    calculateMin(executionTimes),
+		ExecutionTimeMax:    calculateMax(executionTimes),
+		MemoryUsedMBMean:    calculateMean(memoryUsedValues),
+		MemoryUsedMBStd:     calculateStdDev(memoryUsedValues),
+		InitialMemoryMBMean: calculateMean(initialMemoryValues),
+		InitialMemoryMBStd:  calculateStdDev(initialMemoryValues),
+		FinalMemoryMBMean:   calculateMean(finalMemoryValues),
+		FinalMemoryMBStd:    calculateStdDev(finalMemoryValues),
+		Iterations:          iterations,
 	}
 }
 
@@ -115,19 +195,28 @@ func RunBenchmarks() []BenchmarkResult {
 
 	var results []BenchmarkResult
 
-	for _, size := range sizes {
+	log.Printf("Starting benchmark suite with %d data sizes and %d algorithms",
+		len(sizes), len(algorithms))
+
+	for sizeIdx, size := range sizes {
+		log.Printf("Processing data size %d (%d/%d)", size, sizeIdx+1, len(sizes))
 		testData, _ := LoadTestData(size)
 
-		for _, alg := range algorithms {
-			result := BenchmarkSortingAlgorithm(alg.Function, testData, alg.Name)
+		for algIdx, alg := range algorithms {
+			log.Printf("Running %s (%d/%d) on data size %d",
+				alg.Name, algIdx+1, len(algorithms), size)
+			result := BenchmarkSortingAlgorithm(alg.Function, testData, alg.Name, 50)
 			results = append(results, result)
+			log.Printf("Completed %s benchmark for size %d", alg.Name, size)
 		}
 	}
 
+	log.Printf("Benchmark suite completed. Generated %d results.", len(results))
 	return results
 }
 
 func main() {
+	log.Printf("Starting Go sorting algorithm benchmark")
 	rand.Seed(time.Now().UnixNano())
 
 	results := RunBenchmarks()
@@ -138,4 +227,6 @@ func main() {
 	encoder := json.NewEncoder(jsonFile)
 	encoder.SetIndent("", "  ")
 	encoder.Encode(results)
+
+	log.Printf("Results saved to data/results/go_results.json")
 }

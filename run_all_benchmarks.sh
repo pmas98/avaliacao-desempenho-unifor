@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 set -euo pipefail
 
 # Ensure results dir exists
@@ -8,8 +8,8 @@ mkdir -p data/results
 docker compose build
 
 # Run containers
-echo "Running Python benchmark..."
-docker compose run --rm python
+# echo "Running Python benchmark..."
+# docker compose run --rm python
 
 echo "Running Go benchmark..."
 docker compose run --rm go

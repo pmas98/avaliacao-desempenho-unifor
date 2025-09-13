@@ -3,21 +3,38 @@ import java.util.*;
 import java.util.function.Function;
 
 class BenchmarkResult {
-    private String algorithm;
-    private int dataSize;
-    private double executionTime;
-    private double memoryUsedMB;
-    private double initialMemoryMB;
-    private double finalMemoryMB;
+    private final String algorithm;
+    private final int dataSize;
+    private final double executionTimeMean;
+    private final double executionTimeStd;
+    private final double executionTimeMin;
+    private final double executionTimeMax;
+    private final double memoryUsedMBMean;
+    private final double memoryUsedMBStd;
+    private final double initialMemoryMBMean;
+    private final double initialMemoryMBStd;
+    private final double finalMemoryMBMean;
+    private final double finalMemoryMBStd;
+    private final int iterations;
 
-    public BenchmarkResult(String algorithm, int dataSize, double executionTime,
-            double memoryUsedMB, double initialMemoryMB, double finalMemoryMB) {
+    public BenchmarkResult(String algorithm, int dataSize, double executionTimeMean,
+            double executionTimeStd, double executionTimeMin, double executionTimeMax,
+            double memoryUsedMBMean, double memoryUsedMBStd,
+            double initialMemoryMBMean, double initialMemoryMBStd,
+            double finalMemoryMBMean, double finalMemoryMBStd, int iterations) {
         this.algorithm = algorithm;
         this.dataSize = dataSize;
-        this.executionTime = executionTime;
-        this.memoryUsedMB = memoryUsedMB;
-        this.initialMemoryMB = initialMemoryMB;
-        this.finalMemoryMB = finalMemoryMB;
+        this.executionTimeMean = executionTimeMean;
+        this.executionTimeStd = executionTimeStd;
+        this.executionTimeMin = executionTimeMin;
+        this.executionTimeMax = executionTimeMax;
+        this.memoryUsedMBMean = memoryUsedMBMean;
+        this.memoryUsedMBStd = memoryUsedMBStd;
+        this.initialMemoryMBMean = initialMemoryMBMean;
+        this.initialMemoryMBStd = initialMemoryMBStd;
+        this.finalMemoryMBMean = finalMemoryMBMean;
+        this.finalMemoryMBStd = finalMemoryMBStd;
+        this.iterations = iterations;
     }
 
     public String toJson() {
@@ -25,12 +42,22 @@ class BenchmarkResult {
                 "{\n" +
                         "    \"algorithm\": \"%s\",\n" +
                         "    \"data_size\": %d,\n" +
-                        "    \"execution_time\": %.6f,\n" +
-                        "    \"memory_used_mb\": %.6f,\n" +
-                        "    \"initial_memory_mb\": %.6f,\n" +
-                        "    \"final_memory_mb\": %.6f\n" +
+                        "    \"execution_time_mean\": %.6f,\n" +
+                        "    \"execution_time_std\": %.6f,\n" +
+                        "    \"execution_time_min\": %.6f,\n" +
+                        "    \"execution_time_max\": %.6f,\n" +
+                        "    \"memory_used_mb_mean\": %.6f,\n" +
+                        "    \"memory_used_mb_std\": %.6f,\n" +
+                        "    \"initial_memory_mb_mean\": %.6f,\n" +
+                        "    \"initial_memory_mb_std\": %.6f,\n" +
+                        "    \"final_memory_mb_mean\": %.6f,\n" +
+                        "    \"final_memory_mb_std\": %.6f,\n" +
+                        "    \"iterations\": %d\n" +
                         "  }",
-                algorithm, dataSize, executionTime, memoryUsedMB, initialMemoryMB, finalMemoryMB);
+                algorithm, dataSize, executionTimeMean, executionTimeStd, 
+                executionTimeMin, executionTimeMax, memoryUsedMBMean, memoryUsedMBStd,
+                initialMemoryMBMean, initialMemoryMBStd, finalMemoryMBMean, 
+                finalMemoryMBStd, iterations);
     }
 
     public String getAlgorithm() {
@@ -41,26 +68,54 @@ class BenchmarkResult {
         return dataSize;
     }
 
-    public double getExecutionTime() {
-        return executionTime;
+    public double getExecutionTimeMean() {
+        return executionTimeMean;
     }
 
-    public double getMemoryUsedMB() {
-        return memoryUsedMB;
+    public double getExecutionTimeStd() {
+        return executionTimeStd;
     }
 
-    public double getInitialMemoryMB() {
-        return initialMemoryMB;
+    public double getExecutionTimeMin() {
+        return executionTimeMin;
     }
 
-    public double getFinalMemoryMB() {
-        return finalMemoryMB;
+    public double getExecutionTimeMax() {
+        return executionTimeMax;
+    }
+
+    public double getMemoryUsedMBMean() {
+        return memoryUsedMBMean;
+    }
+
+    public double getMemoryUsedMBStd() {
+        return memoryUsedMBStd;
+    }
+
+    public double getInitialMemoryMBMean() {
+        return initialMemoryMBMean;
+    }
+
+    public double getInitialMemoryMBStd() {
+        return initialMemoryMBStd;
+    }
+
+    public double getFinalMemoryMBMean() {
+        return finalMemoryMBMean;
+    }
+
+    public double getFinalMemoryMBStd() {
+        return finalMemoryMBStd;
+    }
+
+    public int getIterations() {
+        return iterations;
     }
 }
 
 class SortingAlgorithm {
-    private Function<int[], int[]> function;
-    private String name;
+    private final Function<int[], int[]> function;
+    private final String name;
 
     public SortingAlgorithm(Function<int[], int[]> function, String name) {
         this.function = function;
@@ -165,23 +220,78 @@ public class SortingBenchmark {
         return (runtime.totalMemory() - runtime.freeMemory()) / 1024.0 / 1024.0;
     }
 
+    private static double calculateMean(List<Double> values) {
+        return values.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
+    }
+
+    private static double calculateStdDev(List<Double> values) {
+        if (values.size() <= 1) return 0.0;
+        
+        double mean = calculateMean(values);
+        double sumSquaredDiffs = values.stream()
+            .mapToDouble(value -> Math.pow(value - mean, 2))
+            .sum();
+        return Math.sqrt(sumSquaredDiffs / (values.size() - 1));
+    }
+
+    private static double calculateMin(List<Double> values) {
+        return values.stream().mapToDouble(Double::doubleValue).min().orElse(0.0);
+    }
+
+    private static double calculateMax(List<Double> values) {
+        return values.stream().mapToDouble(Double::doubleValue).max().orElse(0.0);
+    }
+
     public static BenchmarkResult benchmarkSortingAlgorithm(Function<int[], int[]> algorithm,
-            int[] data, String algorithmName) {
-        System.gc();
+            int[] data, String algorithmName, int iterations) {
+        List<Double> executionTimes = new ArrayList<>();
+        List<Double> memoryUsedValues = new ArrayList<>();
+        List<Double> initialMemoryValues = new ArrayList<>();
+        List<Double> finalMemoryValues = new ArrayList<>();
 
-        double initialMemory = measureMemory();
-        long startTime = System.nanoTime();
+        System.out.printf("[%s] Starting benchmark for %s with %d elements (%d iterations)%n", 
+                         java.time.LocalTime.now(), algorithmName, data.length, iterations);
 
-        int[] sortedData = algorithm.apply(data);
+        for (int i = 0; i < iterations; i++) {
+            System.gc();
 
-        long endTime = System.nanoTime();
-        double finalMemory = measureMemory();
+            double initialMemory = measureMemory();
+            long startTime = System.nanoTime();
 
-        double executionTime = (endTime - startTime) / 1_000_000_000.0;
-        double memoryUsed = finalMemory - initialMemory;
+            algorithm.apply(data);
 
-        return new BenchmarkResult(algorithmName, data.length, executionTime,
-                memoryUsed, initialMemory, finalMemory);
+            long endTime = System.nanoTime();
+            double finalMemory = measureMemory();
+
+            double executionTime = (endTime - startTime) / 1_000_000_000.0;
+            double memoryUsed = finalMemory - initialMemory;
+
+            executionTimes.add(executionTime);
+            memoryUsedValues.add(memoryUsed);
+            initialMemoryValues.add(initialMemory);
+            finalMemoryValues.add(finalMemory);
+
+            // Log every iteration completion
+            System.out.printf("[%s] Completed iteration %d/%d for %s - Time: %.6fs, Memory: %.2fMB%n",
+                             java.time.LocalTime.now(), i + 1, iterations, algorithmName, 
+                             executionTime, memoryUsed);
+        }
+
+        return new BenchmarkResult(
+            algorithmName, 
+            data.length,
+            calculateMean(executionTimes),
+            calculateStdDev(executionTimes),
+            calculateMin(executionTimes),
+            calculateMax(executionTimes),
+            calculateMean(memoryUsedValues),
+            calculateStdDev(memoryUsedValues),
+            calculateMean(initialMemoryValues),
+            calculateStdDev(initialMemoryValues),
+            calculateMean(finalMemoryValues),
+            calculateStdDev(finalMemoryValues),
+            iterations
+        );
     }
 
     public static List<BenchmarkResult> runBenchmarks() throws IOException {
@@ -192,16 +302,30 @@ public class SortingBenchmark {
 
         List<BenchmarkResult> results = new ArrayList<>();
 
-        for (int size : sizes) {
+        System.out.printf("[%s] Starting benchmark suite with %d data sizes and %d algorithms%n",
+                         java.time.LocalTime.now(), sizes.length, algorithms.size());
+
+        for (int sizeIdx = 0; sizeIdx < sizes.length; sizeIdx++) {
+            int size = sizes[sizeIdx];
+            System.out.printf("[%s] Processing data size %d (%d/%d)%n",
+                             java.time.LocalTime.now(), size, sizeIdx + 1, sizes.length);
             int[] testData = loadTestData(size);
 
-            for (SortingAlgorithm alg : algorithms) {
+            for (int algIdx = 0; algIdx < algorithms.size(); algIdx++) {
+                SortingAlgorithm alg = algorithms.get(algIdx);
+                System.out.printf("[%s] Running %s (%d/%d) on data size %d%n",
+                                 java.time.LocalTime.now(), alg.getName(), 
+                                 algIdx + 1, algorithms.size(), size);
                 BenchmarkResult result = benchmarkSortingAlgorithm(
-                        alg.getFunction(), testData, alg.getName());
+                        alg.getFunction(), testData, alg.getName(), 50);
                 results.add(result);
+                System.out.printf("[%s] Completed %s benchmark for size %d%n",
+                                 java.time.LocalTime.now(), alg.getName(), size);
             }
         }
 
+        System.out.printf("[%s] Benchmark suite completed. Generated %d results.%n",
+                         java.time.LocalTime.now(), results.size());
         return results;
     }
 
@@ -224,11 +348,15 @@ public class SortingBenchmark {
 
     public static void main(String[] args) {
         try {
-            Random random = new Random(System.nanoTime());
+            System.out.printf("[%s] Starting Java sorting algorithm benchmark%n", 
+                             java.time.LocalTime.now());
 
             List<BenchmarkResult> results = runBenchmarks();
 
             saveResultsToJson(results);
+            
+            System.out.printf("[%s] Results saved to data/results/java_results.json%n", 
+                             java.time.LocalTime.now());
 
         } catch (IOException e) {
             System.err.println("Erro durante o benchmark: " + e.getMessage());
