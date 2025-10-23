@@ -1,0 +1,32 @@
+{
+  "name": "unifor-accessibility-testing",
+  "version": "1.0.0",
+  "description": "Accessibility testing suite for Unifor website using Axe",
+  "main": "axe-accessibility-test.js",
+  "scripts": {
+    "test": "node axe-accessibility-test.js",
+    "test:headless": "node axe-accessibility-test.js --headless",
+    "test:report": "node axe-accessibility-test.js --report",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "axe-core": "^4.8.2",
+    "puppeteer": "^21.5.2",
+    "playwright": "^1.40.0",
+    "fs-extra": "^11.1.1",
+    "moment": "^2.29.4",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "accessibility",
+    "testing",
+    "axe",
+    "wcag",
+    "unifor"
+  ],
+  "author": "Unifor Performance Testing Team",
+  "license": "MIT"
+}
