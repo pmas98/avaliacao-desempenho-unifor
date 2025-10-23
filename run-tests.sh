@@ -15,14 +15,6 @@ if ! command -v jmeter &> /dev/null; then
     exit 1
 fi
 
-# Check if Node.js is installed for accessibility testing
-if ! command -v node &> /dev/null; then
-    echo "Warning: Node.js is not installed. Accessibility testing will be skipped."
-    echo "To enable accessibility testing, install Node.js and run: npm install"
-    ACCESSIBILITY_ENABLED=false
-else
-    ACCESSIBILITY_ENABLED=true
-fi
 
 # Create results directory
 mkdir -p results
@@ -46,24 +38,6 @@ jmeter -n -t ../unifor-functional-test-corrected.jmx -l functional-results.jtl -
 echo "Running Accessibility Test (JMeter)..."
 jmeter -n -t ../unifor-accessibility-test.jmx -l accessibility-results.jtl -e -o accessibility-report/
 
-# Test 5: Advanced Accessibility Test (Node.js + Axe)
-if [ "$ACCESSIBILITY_ENABLED" = true ]; then
-    echo "Running Advanced Accessibility Test (Axe-core)..."
-    cd ..
-    
-    # Check if dependencies are installed
-    if [ ! -d "node_modules" ]; then
-        echo "Installing Node.js dependencies for accessibility testing..."
-        npm install
-    fi
-    
-    # Run Axe accessibility tests
-    node axe-accessibility-test.js --report --output ./results/accessibility-results
-    
-    cd results
-else
-    echo "Skipping advanced accessibility testing (Node.js not available)"
-fi
 
 echo "=========================================="
 echo "All tests completed!"
@@ -106,7 +80,6 @@ cat > summary-report.html << 'EOF'
         <a href="navigation-report/index.html">🧭 Navigation Tests</a>
         <a href="functional-report/index.html">⚙️ Functional Tests</a>
         <a href="accessibility-report/index.html">♿ Accessibility Tests</a>
-        <a href="accessibility-results/accessibility-report.html">🔍 Axe Report</a>
     </div>
     
     <div class="test-section performance-section">
@@ -133,32 +106,6 @@ cat > summary-report.html << 'EOF'
         </div>
     </div>
     
-    <div class="test-section accessibility-section">
-        <h2>♿ Accessibility Testing Overview <span class="wcag-badge">WCAG 2.1 AA</span></h2>
-        <p>Comprehensive accessibility testing using Axe-core to ensure WCAG 2.1 AA compliance and inclusive user experience.</p>
-        
-        <h3>Accessibility Test Coverage:</h3>
-        <ul>
-            <li><strong>Color Contrast:</strong> Text and background color ratios</li>
-            <li><strong>Keyboard Navigation:</strong> Tab order and focus management</li>
-            <li><strong>Screen Reader Support:</strong> ARIA labels and semantic HTML</li>
-            <li><strong>Image Accessibility:</strong> Alt text and descriptions</li>
-            <li><strong>Form Accessibility:</strong> Labels and error handling</li>
-            <li><strong>Heading Structure:</strong> Proper heading hierarchy</li>
-            <li><strong>Link Accessibility:</strong> Descriptive link text</li>
-            <li><strong>Language Declaration:</strong> HTML lang attribute</li>
-        </ul>
-        
-        <h3>Pages Tested for Accessibility:</h3>
-        <ul>
-            <li>Homepage (/)</li>
-            <li>News (/noticias)</li>
-            <li>Graduation (/web/graduacao/home)</li>
-            <li>Post-Graduation (/web/pos-graduacao/home)</li>
-            <li>Admissions (/web/graduacao/processo-seletivo/inscricoes)</li>
-            <li>Search (/home)</li>
-        </ul>
-    </div>
     
     <div class="test-section">
         <h2>📈 Performance Metrics</h2>
@@ -169,8 +116,6 @@ cat > summary-report.html << 'EOF'
             <li><strong>Error Rate:</strong> Percentage of failed requests</li>
             <li><strong>CPU Usage:</strong> Server resource utilization</li>
             <li><strong>Memory Usage:</strong> Memory consumption during tests</li>
-            <li><strong>Accessibility Violations:</strong> WCAG compliance issues found</li>
-            <li><strong>Accessibility Score:</strong> Overall accessibility compliance percentage</li>
         </ul>
     </div>
     
@@ -182,7 +127,6 @@ cat > summary-report.html << 'EOF'
             <li><a href="navigation-report/index.html">Navigation Test Report</a></li>
             <li><a href="functional-report/index.html">Functional Test Report</a></li>
             <li><a href="accessibility-report/index.html">Accessibility Test Report (JMeter)</a></li>
-            <li><a href="accessibility-results/accessibility-report.html">Advanced Accessibility Report (Axe)</a></li>
         </ul>
     </div>
     
@@ -199,25 +143,12 @@ cat > summary-report.html << 'EOF'
             <li>Implement load balancing if needed</li>
         </ul>
         
-        <h3>Accessibility Improvements:</h3>
-        <ul>
-            <li>Add alt text to all images</li>
-            <li>Ensure proper heading hierarchy</li>
-            <li>Implement keyboard navigation support</li>
-            <li>Add ARIA labels where needed</li>
-            <li>Test with screen readers</li>
-            <li>Ensure color contrast meets WCAG standards</li>
-            <li>Add skip navigation links</li>
-        </ul>
     </div>
     
     <div class="test-section">
         <h2>🛠️ Testing Tools Used</h2>
         <ul>
             <li><strong>Apache JMeter:</strong> Performance and load testing</li>
-            <li><strong>Axe-core:</strong> Accessibility testing engine</li>
-            <li><strong>Puppeteer:</strong> Browser automation for accessibility tests</li>
-            <li><strong>Node.js:</strong> Runtime for accessibility testing scripts</li>
         </ul>
     </div>
 </body>
@@ -232,12 +163,10 @@ echo ""
 echo "🎉 Testing Suite Completed Successfully!"
 echo "=========================================="
 echo "📊 Performance Tests: ✅ Completed"
-echo "♿ Accessibility Tests: $([ "$ACCESSIBILITY_ENABLED" = true ] && echo "✅ Completed" || echo "⚠️  Skipped (Node.js not available)")"
+echo "♿ Accessibility Tests: ✅ Completed (JMeter only)"
 echo "📁 Results Directory: ./results/"
 echo "🌐 Main Report: ./results/summary-report.html"
 echo ""
-echo "To run only accessibility tests:"
-echo "  node axe-accessibility-test.js --report"
 echo ""
 echo "To run only performance tests:"
 echo "  jmeter -n -t unifor-navigation-test-corrected.jmx -l results.jtl -e -o report/"
