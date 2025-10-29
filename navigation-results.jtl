@@ -369,3 +369,397 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1761246680581,149,Admissions Page,200,,Navigation Test Group 1-28,text,true,,273701,314,3,3,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,30,0,0
 1761246681491,155,Admissions Page,200,,Navigation Test Group 1-29,text,true,,273721,314,2,2,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,34,0,0
 1761246682485,154,Admissions Page,200,,Navigation Test Group 1-30,text,true,,273721,314,1,1,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,32,0,0
+1761752821247,951,Homepage,200,,Navigation Test Group 1-1,text,true,,286015,272,5,5,https://unifor.br/,537,0,386
+1761752822198,759,Homepage,200,,Navigation Test Group 1-2,text,true,,284712,272,5,5,https://unifor.br/,350,0,168
+1761752823198,680,Homepage,200,,Navigation Test Group 1-3,text,true,,284696,272,6,6,https://unifor.br/,315,0,170
+1761752824197,736,Homepage,200,,Navigation Test Group 1-4,text,true,,286015,272,7,7,https://unifor.br/,324,0,181
+1761752825203,324,Graduation Page,200,,Navigation Test Group 1-1,text,true,,458729,591,8,8,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752825203,54,Graduation Page-0,301,,Navigation Test Group 1-1,,true,,317,290,8,8,https://unifor.br/web/graduacao/home,54,0,0
+1761752825258,269,Graduation Page-1,200,,Navigation Test Group 1-1,text,true,,458412,301,8,8,https://unifor.br/web/graduacao/todos-os-cursos,82,0,0
+1761752825198,670,Homepage,200,,Navigation Test Group 1-5,text,true,,284712,272,8,8,https://unifor.br/,310,0,169
+1761752825958,374,Post-Graduation Page,200,,Navigation Test Group 1-2,text,true,,174435,294,9,9,https://unifor.br/web/pos-graduacao/home,207,0,0
+1761752826197,715,Homepage,200,,Navigation Test Group 1-6,text,true,,284712,272,9,9,https://unifor.br/,308,0,164
+1761752826878,345,News Page,200,,Navigation Test Group 1-3,text,true,,219945,280,10,10,https://unifor.br/noticias,171,0,0
+1761752827196,621,Homepage,200,,Navigation Test Group 1-7,text,true,,284708,272,10,10,https://unifor.br/,295,0,157
+1761752827933,280,Post-Graduation Page,200,,Navigation Test Group 1-4,text,true,,174415,294,11,11,https://unifor.br/web/pos-graduacao/home,104,0,0
+1761752828530,318,Homepage,200,,Navigation Test Group 1-1,text,true,,284712,272,11,11,https://unifor.br/,141,0,0
+1761752828197,666,Homepage,200,,Navigation Test Group 1-8,text,true,,284696,272,11,11,https://unifor.br/,304,0,166
+1761752828868,333,Graduation Page,200,,Navigation Test Group 1-5,text,true,,458729,591,12,12,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752828868,53,Graduation Page-0,301,,Navigation Test Group 1-5,,true,,317,290,12,12,https://unifor.br/web/graduacao/home,53,0,0
+1761752828922,279,Graduation Page-1,200,,Navigation Test Group 1-5,text,true,,458412,301,12,12,https://unifor.br/web/graduacao/todos-os-cursos,91,0,0
+1761752829332,316,Homepage,200,,Navigation Test Group 1-2,text,true,,284712,272,12,12,https://unifor.br/,139,0,0
+1761752829196,671,Homepage,200,,Navigation Test Group 1-9,text,true,,284712,272,12,12,https://unifor.br/,309,0,168
+1761752829912,343,Graduation Page,200,,Navigation Test Group 1-6,text,true,,458729,591,13,13,https://unifor.br/web/graduacao/todos-os-cursos,55,0,0
+1761752829912,55,Graduation Page-0,301,,Navigation Test Group 1-6,,true,,317,290,13,13,https://unifor.br/web/graduacao/home,55,0,0
+1761752829967,288,Graduation Page-1,200,,Navigation Test Group 1-6,text,true,,458412,301,13,13,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752830224,315,Homepage,200,,Navigation Test Group 1-3,text,true,,284712,272,13,13,https://unifor.br/,139,0,0
+1761752830194,714,Homepage,200,,Navigation Test Group 1-10,text,true,,284712,272,13,13,https://unifor.br/,298,0,164
+1761752830818,257,Admissions Page,200,,Navigation Test Group 1-7,text,true,,272894,314,13,13,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,74,0,0
+1761752831215,317,Homepage,200,,Navigation Test Group 1-4,text,true,,284708,272,14,14,https://unifor.br/,139,0,0
+1761752831196,666,Homepage,200,,Navigation Test Group 1-11,text,true,,284708,272,14,14,https://unifor.br/,307,0,166
+1761752831849,267,Admissions Page,200,,Navigation Test Group 1-1,text,true,,274205,314,14,14,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,78,0,0
+1761752831863,280,News Page,200,,Navigation Test Group 1-8,text,true,,219945,280,14,14,https://unifor.br/noticias,96,0,0
+1761752832202,324,Homepage,200,,Navigation Test Group 1-5,text,true,,284712,272,15,15,https://unifor.br/,145,0,0
+1761752832197,687,Homepage,200,,Navigation Test Group 1-12,text,true,,284712,272,15,15,https://unifor.br/,322,0,166
+1761752832649,278,Post-Graduation Page,200,,Navigation Test Group 1-2,text,true,,174435,294,15,15,https://unifor.br/web/pos-graduacao/home,111,0,0
+1761752832868,284,Post-Graduation Page,200,,Navigation Test Group 1-9,text,true,,174435,294,15,15,https://unifor.br/web/pos-graduacao/home,135,0,0
+1761752833257,361,Homepage,200,,Navigation Test Group 1-6,text,true,,284712,272,16,16,https://unifor.br/,182,0,0
+1761752833196,641,Homepage,200,,Navigation Test Group 1-13,text,true,,284728,272,16,16,https://unifor.br/,313,0,183
+1761752833541,322,Graduation Page,200,,Navigation Test Group 1-3,text,true,,458729,591,16,16,https://unifor.br/web/graduacao/todos-os-cursos,56,0,0
+1761752833541,56,Graduation Page-0,301,,Navigation Test Group 1-3,,true,,317,290,16,16,https://unifor.br/web/graduacao/home,56,0,0
+1761752833597,266,Graduation Page-1,200,,Navigation Test Group 1-3,text,true,,458412,301,16,16,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752833909,277,News Page,200,,Navigation Test Group 1-10,text,true,,219945,280,16,16,https://unifor.br/noticias,101,0,0
+1761752834076,323,Homepage,200,,Navigation Test Group 1-7,text,true,,286011,272,17,17,https://unifor.br/,134,0,0
+1761752834534,265,Admissions Page,200,,Navigation Test Group 1-4,text,true,,272874,314,17,17,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,80,0,0
+1761752834196,699,Homepage,200,,Navigation Test Group 1-14,text,true,,284712,272,17,17,https://unifor.br/,330,0,149
+1761752834863,274,Post-Graduation Page,200,,Navigation Test Group 1-11,text,true,,174415,294,17,17,https://unifor.br/web/pos-graduacao/home,98,0,0
+1761752835117,339,Homepage,200,,Navigation Test Group 1-1,text,true,,284712,272,18,18,https://unifor.br/,160,0,0
+1761752835145,324,Homepage,200,,Navigation Test Group 1-8,text,true,,284712,272,18,18,https://unifor.br/,147,0,0
+1761752835527,273,Post-Graduation Page,200,,Navigation Test Group 1-5,text,true,,174435,294,18,18,https://unifor.br/web/pos-graduacao/home,107,0,0
+1761752835196,725,Homepage,200,,Navigation Test Group 1-15,text,true,,284712,272,18,18,https://unifor.br/,309,0,169
+1761752835885,262,Admissions Page,200,,Navigation Test Group 1-12,text,true,,272894,314,18,18,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,78,0,0
+1761752835928,317,Homepage,200,,Navigation Test Group 1-2,text,true,,284712,272,19,19,https://unifor.br/,138,0,0
+1761752836153,318,Homepage,200,,Navigation Test Group 1-9,text,true,,284712,272,19,19,https://unifor.br/,141,0,0
+1761752836197,668,Homepage,200,,Navigation Test Group 1-16,text,true,,284708,272,19,19,https://unifor.br/,303,0,166
+1761752836620,275,News Page,200,,Navigation Test Group 1-6,text,true,,219945,280,19,19,https://unifor.br/noticias,98,0,0
+1761752836838,273,News Page,200,,Navigation Test Group 1-13,text,true,,219945,280,19,19,https://unifor.br/noticias,96,0,0
+1761752836864,330,Homepage,200,,Navigation Test Group 1-3,text,true,,286015,272,19,19,https://unifor.br/,159,0,0
+1761752837188,320,Homepage,200,,Navigation Test Group 1-10,text,true,,284696,272,20,20,https://unifor.br/,143,0,0
+1761752837401,293,Admissions Page,200,,Navigation Test Group 1-7,text,true,,272894,314,20,20,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,100,0,0
+1761752837196,878,Homepage,200,,Navigation Test Group 1-17,text,true,,286015,272,20,20,https://unifor.br/,438,0,164
+1761752837801,311,Homepage,200,,Navigation Test Group 1-4,text,true,,284728,272,20,20,https://unifor.br/,134,0,0
+1761752837896,311,Graduation Page,200,,Navigation Test Group 1-14,text,true,,458713,591,21,21,https://unifor.br/web/graduacao/todos-os-cursos,48,0,0
+1761752837896,48,Graduation Page-0,301,,Navigation Test Group 1-14,,true,,317,290,21,21,https://unifor.br/web/graduacao/home,48,0,0
+1761752837944,263,Graduation Page-1,200,,Navigation Test Group 1-14,text,true,,458396,301,21,21,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752838139,318,Homepage,200,,Navigation Test Group 1-11,text,true,,286015,272,21,21,https://unifor.br/,138,0,0
+1761752838470,278,Post-Graduation Page,200,,Navigation Test Group 1-8,text,true,,175738,294,21,21,https://unifor.br/web/pos-graduacao/home,112,0,0
+1761752838457,318,Graduation Page,200,,Navigation Test Group 1-1,text,true,,458684,591,21,21,https://unifor.br/web/graduacao/todos-os-cursos,55,0,0
+1761752838457,55,Graduation Page-0,301,,Navigation Test Group 1-1,,true,,317,290,21,21,https://unifor.br/web/graduacao/home,55,0,0
+1761752838512,263,Graduation Page-1,200,,Navigation Test Group 1-1,text,true,,458367,301,21,21,https://unifor.br/web/graduacao/todos-os-cursos,79,0,0
+1761752838196,610,Homepage,200,,Navigation Test Group 1-18,text,true,,284712,272,21,21,https://unifor.br/,284,0,150
+1761752838801,325,Homepage,200,,Navigation Test Group 1-5,text,true,,284712,272,21,21,https://unifor.br/,145,0,0
+1761752838923,280,News Page,200,,Navigation Test Group 1-15,text,true,,219945,280,22,22,https://unifor.br/noticias,102,0,0
+1761752839149,318,Homepage,200,,Navigation Test Group 1-12,text,true,,284712,272,22,22,https://unifor.br/,141,0,0
+1761752839247,336,Graduation Page,200,,Navigation Test Group 1-2,text,true,,458729,591,22,22,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752839247,52,Graduation Page-0,301,,Navigation Test Group 1-2,,true,,317,290,22,22,https://unifor.br/web/graduacao/home,52,0,0
+1761752839300,283,Graduation Page-1,200,,Navigation Test Group 1-2,text,true,,458412,301,22,22,https://unifor.br/web/graduacao/todos-os-cursos,95,0,0
+1761752839472,323,Graduation Page,200,,Navigation Test Group 1-9,text,true,,460024,591,22,22,https://unifor.br/web/graduacao/todos-os-cursos,55,0,0
+1761752839472,55,Graduation Page-0,301,,Navigation Test Group 1-9,,true,,317,290,22,22,https://unifor.br/web/graduacao/home,55,0,0
+1761752839527,268,Graduation Page-1,200,,Navigation Test Group 1-9,text,true,,459707,301,22,22,https://unifor.br/web/graduacao/todos-os-cursos,84,0,0
+1761752839196,721,Homepage,200,,Navigation Test Group 1-19,text,true,,284712,272,22,22,https://unifor.br/,307,0,165
+1761752839867,279,Post-Graduation Page,200,,Navigation Test Group 1-16,text,true,,174415,294,22,22,https://unifor.br/web/pos-graduacao/home,112,0,0
+1761752839897,331,Homepage,200,,Navigation Test Group 1-6,text,true,,284712,272,23,23,https://unifor.br/,152,0,0
+1761752840113,311,Homepage,200,,Navigation Test Group 1-13,text,true,,284708,272,23,23,https://unifor.br/,133,0,0
+1761752840195,324,Graduation Page,200,,Navigation Test Group 1-3,text,true,,458729,591,23,23,https://unifor.br/web/graduacao/todos-os-cursos,59,0,0
+1761752840195,59,Graduation Page-0,301,,Navigation Test Group 1-3,,true,,317,290,23,23,https://unifor.br/web/graduacao/home,59,0,0
+1761752840254,265,Graduation Page-1,200,,Navigation Test Group 1-3,text,true,,458412,301,23,23,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752840509,266,Admissions Page,200,,Navigation Test Group 1-10,text,true,,274205,314,23,23,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,79,0,0
+1761752840197,622,Homepage,200,,Navigation Test Group 1-20,text,true,,284728,272,23,23,https://unifor.br/,290,0,155
+1761752840696,343,Homepage,200,,Navigation Test Group 1-7,text,true,,284728,272,23,23,https://unifor.br/,146,0,0
+1761752841114,273,News Page,200,,Navigation Test Group 1-4,text,true,,219945,280,24,24,https://unifor.br/noticias,99,0,0
+1761752841076,345,Graduation Page,200,,Navigation Test Group 1-17,text,true,,460024,591,24,24,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752841076,53,Graduation Page-0,301,,Navigation Test Group 1-17,,true,,317,290,24,24,https://unifor.br/web/graduacao/home,53,0,0
+1761752841130,291,Graduation Page-1,200,,Navigation Test Group 1-17,text,true,,459707,301,24,24,https://unifor.br/web/graduacao/todos-os-cursos,79,0,0
+1761752841209,315,Homepage,200,,Navigation Test Group 1-14,text,true,,284712,272,24,24,https://unifor.br/,135,0,0
+1761752841458,324,Graduation Page,200,,Navigation Test Group 1-11,text,true,,460040,591,24,24,https://unifor.br/web/graduacao/todos-os-cursos,57,0,0
+1761752841458,57,Graduation Page-0,301,,Navigation Test Group 1-11,,true,,317,290,24,24,https://unifor.br/web/graduacao/home,57,0,0
+1761752841515,267,Graduation Page-1,200,,Navigation Test Group 1-11,text,true,,459723,301,24,24,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752841195,620,Homepage,200,,Navigation Test Group 1-21,text,true,,284696,272,24,24,https://unifor.br/,311,0,162
+1761752841807,274,Post-Graduation Page,200,,Navigation Test Group 1-18,text,true,,174419,294,24,24,https://unifor.br/web/pos-graduacao/home,108,0,0
+1761752841749,334,Homepage,200,,Navigation Test Group 1-8,text,true,,284712,272,24,24,https://unifor.br/,154,0,0
+1761752842127,319,Graduation Page,200,,Navigation Test Group 1-5,text,true,,460024,591,25,25,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752842127,53,Graduation Page-0,301,,Navigation Test Group 1-5,,true,,317,290,25,25,https://unifor.br/web/graduacao/home,53,0,0
+1761752842181,265,Graduation Page-1,200,,Navigation Test Group 1-5,text,true,,459707,301,25,25,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752841776,722,Homepage,200,,Navigation Test Group 1-1,text,true,,284712,272,25,25,https://unifor.br/,304,0,166
+1761752842204,319,Homepage,200,,Navigation Test Group 1-15,text,true,,284712,272,25,25,https://unifor.br/,140,0,0
+1761752842468,318,Graduation Page,200,,Navigation Test Group 1-12,text,true,,458713,591,25,25,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752842468,54,Graduation Page-0,301,,Navigation Test Group 1-12,,true,,317,290,25,25,https://unifor.br/web/graduacao/home,54,0,0
+1761752842523,263,Graduation Page-1,200,,Navigation Test Group 1-12,text,true,,458396,301,25,25,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752842196,672,Homepage,200,,Navigation Test Group 1-22,text,true,,284712,272,25,25,https://unifor.br/,305,0,169
+1761752842584,315,Homepage,200,,Navigation Test Group 1-2,text,true,,284696,272,25,25,https://unifor.br/,138,0,0
+1761752842796,316,Homepage,200,,Navigation Test Group 1-9,text,true,,284712,272,25,25,https://unifor.br/,138,0,0
+1761752842918,267,Admissions Page,200,,Navigation Test Group 1-19,text,true,,272894,314,25,25,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,80,0,0
+1761752843148,330,Homepage,200,,Navigation Test Group 1-16,text,true,,284708,272,26,26,https://unifor.br/,153,0,0
+1761752843229,299,News Page,200,,Navigation Test Group 1-6,text,true,,219945,280,26,26,https://unifor.br/noticias,121,0,0
+1761752843425,321,Admissions Page,200,,Navigation Test Group 1-13,text,true,,272894,314,26,26,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,85,0,0
+1761752843520,326,Homepage,200,,Navigation Test Group 1-3,text,true,,284712,272,26,26,https://unifor.br/,148,0,0
+1761752843197,678,Homepage,200,,Navigation Test Group 1-23,text,true,,284728,272,26,26,https://unifor.br/,315,0,165
+1761752843776,314,Homepage,200,,Navigation Test Group 1-10,text,true,,284712,272,26,26,https://unifor.br/,135,0,0
+1761752843820,271,Post-Graduation Page,200,,Navigation Test Group 1-20,text,true,,174435,294,26,26,https://unifor.br/web/pos-graduacao/home,102,0,0
+1761752844040,305,Graduation Page,200,,Navigation Test Group 1-7,text,true,,458713,591,27,27,https://unifor.br/web/graduacao/todos-os-cursos,47,0,0
+1761752844040,47,Graduation Page-0,301,,Navigation Test Group 1-7,,true,,317,290,27,27,https://unifor.br/web/graduacao/home,47,0,0
+1761752844087,258,Graduation Page-1,200,,Navigation Test Group 1-7,text,true,,458396,301,27,27,https://unifor.br/web/graduacao/todos-os-cursos,74,0,0
+1761752844389,317,Homepage,200,,Navigation Test Group 1-4,text,true,,286015,272,27,27,https://unifor.br/,138,0,0
+1761752844423,331,Homepage,200,,Navigation Test Group 1-17,text,true,,284712,272,27,27,https://unifor.br/,152,0,0
+1761752844525,280,Post-Graduation Page,200,,Navigation Test Group 1-14,text,true,,175754,294,27,27,https://unifor.br/web/pos-graduacao/home,112,0,0
+1761752844196,622,Homepage,200,,Navigation Test Group 1-24,text,true,,284696,272,27,27,https://unifor.br/,307,0,167
+1761752844783,318,Homepage,200,,Navigation Test Group 1-11,text,true,,284712,272,27,27,https://unifor.br/,141,0,0
+1761752844816,287,News Page,200,,Navigation Test Group 1-21,text,true,,221248,280,27,27,https://unifor.br/noticias,109,0,0
+1761752845084,274,News Page,200,,Navigation Test Group 1-8,text,true,,219945,280,28,28,https://unifor.br/noticias,98,0,0
+1761752845083,313,Homepage,200,,Navigation Test Group 1-18,text,true,,284712,272,28,28,https://unifor.br/,134,0,0
+1761752845448,314,Homepage,200,,Navigation Test Group 1-5,text,true,,284712,272,28,28,https://unifor.br/,135,0,0
+1761752845196,608,Homepage,200,,Navigation Test Group 1-25,text,true,,286015,272,28,28,https://unifor.br/,297,0,165
+1761752845499,315,Graduation Page,200,,Navigation Test Group 1-1,text,true,,458729,591,28,28,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752845499,52,Graduation Page-0,301,,Navigation Test Group 1-1,,true,,317,290,28,28,https://unifor.br/web/graduacao/home,52,0,0
+1761752845552,262,Graduation Page-1,200,,Navigation Test Group 1-1,text,true,,458412,301,28,28,https://unifor.br/web/graduacao/todos-os-cursos,78,0,0
+1761752845524,319,Graduation Page,200,,Navigation Test Group 1-15,text,true,,458729,591,28,28,https://unifor.br/web/graduacao/todos-os-cursos,56,0,0
+1761752845524,56,Graduation Page-0,301,,Navigation Test Group 1-15,,true,,317,290,28,28,https://unifor.br/web/graduacao/home,56,0,0
+1761752845580,263,Graduation Page-1,200,,Navigation Test Group 1-15,text,true,,458412,301,28,28,https://unifor.br/web/graduacao/todos-os-cursos,79,0,0
+1761752845787,332,Homepage,200,,Navigation Test Group 1-12,text,true,,284728,272,28,28,https://unifor.br/,155,0,0
+1761752845869,273,Post-Graduation Page,200,,Navigation Test Group 1-22,text,true,,174435,294,28,28,https://unifor.br/web/pos-graduacao/home,107,0,0
+1761752845900,274,News Page,200,,Navigation Test Group 1-2,text,true,,219945,280,28,28,https://unifor.br/noticias,99,0,0
+1761752846114,273,Post-Graduation Page,200,,Navigation Test Group 1-9,text,true,,174435,294,29,29,https://unifor.br/web/pos-graduacao/home,107,0,0
+1761752846186,317,Homepage,200,,Navigation Test Group 1-19,text,true,,284696,272,29,29,https://unifor.br/,139,0,0
+1761752846480,283,Post-Graduation Page,200,,Navigation Test Group 1-16,text,true,,175754,294,29,29,https://unifor.br/web/pos-graduacao/home,116,0,0
+1761752846531,328,Homepage,200,,Navigation Test Group 1-6,text,true,,284712,272,29,29,https://unifor.br/,148,0,0
+1761752846195,719,Homepage,200,,Navigation Test Group 1-26,text,true,,286015,272,29,29,https://unifor.br/,351,0,166
+1761752846749,361,Homepage,200,,Navigation Test Group 1-13,text,true,,284712,272,29,29,https://unifor.br/,178,0,0
+1761752846877,277,Post-Graduation Page,200,,Navigation Test Group 1-23,text,true,,174435,294,29,29,https://unifor.br/web/pos-graduacao/home,107,0,0
+1761752846848,328,Graduation Page,200,,Navigation Test Group 1-3,text,true,,460024,591,29,29,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752846848,52,Graduation Page-0,301,,Navigation Test Group 1-3,,true,,317,290,29,29,https://unifor.br/web/graduacao/home,52,0,0
+1761752846901,275,Graduation Page-1,200,,Navigation Test Group 1-3,text,true,,459707,301,29,29,https://unifor.br/web/graduacao/todos-os-cursos,85,0,0
+1761752847092,314,Homepage,200,,Navigation Test Group 1-20,text,true,,284712,272,30,30,https://unifor.br/,135,0,0
+1761752847092,329,Graduation Page,200,,Navigation Test Group 1-10,text,true,,458713,591,30,30,https://unifor.br/web/graduacao/todos-os-cursos,58,0,0
+1761752847092,58,Graduation Page-0,301,,Navigation Test Group 1-10,,true,,317,290,30,30,https://unifor.br/web/graduacao/home,58,0,0
+1761752847150,271,Graduation Page-1,200,,Navigation Test Group 1-10,text,true,,458396,301,30,30,https://unifor.br/web/graduacao/todos-os-cursos,84,0,0
+1761752847347,311,Homepage,200,,Navigation Test Group 1-7,text,true,,284712,272,30,30,https://unifor.br/,134,0,0
+1761752847197,695,Homepage,200,,Navigation Test Group 1-27,text,true,,286015,272,30,30,https://unifor.br/,317,0,173
+1761752847708,277,Post-Graduation Page,200,,Navigation Test Group 1-4,text,true,,174419,294,30,30,https://unifor.br/web/pos-graduacao/home,108,0,0
+1761752847756,264,Admissions Page,200,,Navigation Test Group 1-17,text,true,,272878,314,30,30,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,81,0,0
+1761752847820,273,Post-Graduation Page,200,,Navigation Test Group 1-24,text,true,,175738,294,30,30,https://unifor.br/web/pos-graduacao/home,105,0,0
+1761752847807,305,Homepage,200,,Navigation Test Group 1-14,text,true,,284712,272,30,30,https://unifor.br/,128,0,0
+1761752848103,272,Post-Graduation Page,200,,Navigation Test Group 1-11,text,true,,175754,294,30,30,https://unifor.br/web/pos-graduacao/home,106,0,0
+1761752848105,311,Homepage,200,,Navigation Test Group 1-21,text,true,,284712,272,30,30,https://unifor.br/,134,0,0
+1761752848360,316,Homepage,200,,Navigation Test Group 1-8,text,true,,284712,272,30,30,https://unifor.br/,137,0,0
+1761752848398,305,Graduation Page,200,,Navigation Test Group 1-18,text,true,,460040,591,30,30,https://unifor.br/web/graduacao/todos-os-cursos,47,0,0
+1761752848398,47,Graduation Page-0,301,,Navigation Test Group 1-18,,true,,317,290,30,30,https://unifor.br/web/graduacao/home,47,0,0
+1761752848445,258,Graduation Page-1,200,,Navigation Test Group 1-18,text,true,,459723,301,30,30,https://unifor.br/web/graduacao/todos-os-cursos,74,0,0
+1761752848196,635,Homepage,200,,Navigation Test Group 1-28,text,true,,284728,272,30,30,https://unifor.br/,318,0,182
+1761752848764,274,News Page,200,,Navigation Test Group 1-5,text,true,,219945,280,30,30,https://unifor.br/noticias,99,0,0
+1761752848806,318,Graduation Page,200,,Navigation Test Group 1-25,text,true,,458713,591,30,30,https://unifor.br/web/graduacao/todos-os-cursos,51,0,0
+1761752848806,51,Graduation Page-0,301,,Navigation Test Group 1-25,,true,,317,290,30,30,https://unifor.br/web/graduacao/home,51,0,0
+1761752848858,266,Graduation Page-1,200,,Navigation Test Group 1-25,text,true,,458396,301,30,30,https://unifor.br/web/graduacao/todos-os-cursos,82,0,0
+1761752848816,312,Homepage,200,,Navigation Test Group 1-1,text,true,,284712,272,30,30,https://unifor.br/,135,0,0
+1761752848845,316,Homepage,200,,Navigation Test Group 1-15,text,true,,284712,272,30,30,https://unifor.br/,138,0,0
+1761752849121,296,News Page,200,,Navigation Test Group 1-12,text,true,,219945,280,30,30,https://unifor.br/noticias,119,0,0
+1761752849144,332,Homepage,200,,Navigation Test Group 1-22,text,true,,284696,272,30,30,https://unifor.br/,153,0,0
+1761752849176,329,Homepage,200,,Navigation Test Group 1-2,text,true,,284712,272,30,30,https://unifor.br/,149,0,0
+1761752849389,338,Homepage,200,,Navigation Test Group 1-9,text,true,,284712,272,30,30,https://unifor.br/,158,0,0
+1761752849505,317,News Page,200,,Navigation Test Group 1-19,text,true,,219945,280,30,30,https://unifor.br/noticias,138,0,0
+1761752849196,630,Homepage,200,,Navigation Test Group 1-29,text,true,,284712,272,30,30,https://unifor.br/,319,0,170
+1761752849765,318,Homepage,200,,Navigation Test Group 1-16,text,true,,284712,272,30,30,https://unifor.br/,141,0,0
+1761752849860,263,Admissions Page,200,,Navigation Test Group 1-6,text,true,,272894,314,30,30,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,78,0,0
+1761752849916,285,Post-Graduation Page,200,,Navigation Test Group 1-26,text,true,,174435,294,30,30,https://unifor.br/web/pos-graduacao/home,119,0,0
+1761752850111,281,Post-Graduation Page,200,,Navigation Test Group 1-13,text,true,,174435,294,30,30,https://unifor.br/web/pos-graduacao/home,115,0,0
+1761752850154,325,Homepage,200,,Navigation Test Group 1-23,text,true,,286015,272,30,30,https://unifor.br/,146,0,0
+1761752850177,332,Homepage,200,,Navigation Test Group 1-3,text,true,,284728,272,30,30,https://unifor.br/,153,0,0
+1761752850407,275,News Page,200,,Navigation Test Group 1-20,text,true,,221248,280,30,30,https://unifor.br/noticias,98,0,0
+1761752850422,317,Homepage,200,,Navigation Test Group 1-10,text,true,,286015,272,30,30,https://unifor.br/,140,0,0
+1761752850197,720,Homepage,200,,Navigation Test Group 1-30,text,true,,286011,272,30,30,https://unifor.br/,309,0,166
+1761752850659,258,Admissions Page,200,,Navigation Test Group 1-7,text,true,,272894,314,30,30,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,74,0,0
+1761752850893,280,Post-Graduation Page,200,,Navigation Test Group 1-27,text,true,,174435,294,30,30,https://unifor.br/web/pos-graduacao/home,114,0,0
+1761752851113,259,Admissions Page,200,,Navigation Test Group 1-14,text,true,,272894,314,30,30,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,74,0,0
+1761752851094,366,Homepage,200,,Navigation Test Group 1-24,text,true,,284712,272,30,30,https://unifor.br/,189,0,0
+1761752851021,456,Homepage,200,,Navigation Test Group 1-17,text,true,,284712,272,30,30,https://unifor.br/,280,0,0
+1761752850986,491,Homepage,200,,Navigation Test Group 1-4,text,true,,286015,272,30,30,https://unifor.br/,314,0,0
+1761752851417,289,Post-Graduation Page,200,,Navigation Test Group 1-21,text,true,,174435,294,30,30,https://unifor.br/web/pos-graduacao/home,121,0,0
+1761752851376,434,Homepage,200,,Navigation Test Group 1-11,text,true,,284724,272,30,30,https://unifor.br/,255,0,0
+1761752851677,272,Admissions Page,200,,Navigation Test Group 1-8,text,true,,272894,314,30,30,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,85,0,0
+1761752851704,367,Homepage,200,,Navigation Test Group 1-18,text,true,,284712,272,30,30,https://unifor.br/,190,0,0
+1761752851832,318,Graduation Page,200,,Navigation Test Group 1-28,text,true,,458729,591,30,30,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752851832,53,Graduation Page-0,301,,Navigation Test Group 1-28,,true,,317,290,30,30,https://unifor.br/web/graduacao/home,53,0,0
+1761752851885,265,Graduation Page-1,200,,Navigation Test Group 1-28,text,true,,458412,301,30,30,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752852039,324,Homepage,200,,Navigation Test Group 1-5,text,true,,284712,272,30,30,https://unifor.br/,147,0,0
+1761752852129,277,Post-Graduation Page,200,,Navigation Test Group 1-1,text,true,,174435,294,30,30,https://unifor.br/web/pos-graduacao/home,111,0,0
+1761752852161,261,Admissions Page,200,,Navigation Test Group 1-15,text,true,,274205,314,29,29,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,77,0,0
+1761752852126,319,Homepage,200,,Navigation Test Group 1-25,text,true,,286015,272,29,29,https://unifor.br/,139,0,0
+1761752852418,322,Homepage,200,,Navigation Test Group 1-12,text,true,,284728,272,29,29,https://unifor.br/,144,0,0
+1761752852477,273,Post-Graduation Page,200,,Navigation Test Group 1-22,text,true,,174435,294,29,29,https://unifor.br/web/pos-graduacao/home,108,0,0
+1761752852506,317,Graduation Page,200,,Navigation Test Group 1-2,text,true,,458729,591,29,29,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752852506,54,Graduation Page-0,301,,Navigation Test Group 1-2,,true,,317,290,29,29,https://unifor.br/web/graduacao/home,54,0,0
+1761752852560,263,Graduation Page-1,200,,Navigation Test Group 1-2,text,true,,458412,301,29,29,https://unifor.br/web/graduacao/todos-os-cursos,79,0,0
+1761752852728,361,Graduation Page,200,,Navigation Test Group 1-9,text,true,,458684,591,28,28,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752852728,52,Graduation Page-0,301,,Navigation Test Group 1-9,,true,,317,290,28,28,https://unifor.br/web/graduacao/home,52,0,0
+1761752852780,309,Graduation Page-1,200,,Navigation Test Group 1-9,text,true,,458367,301,28,28,https://unifor.br/web/graduacao/todos-os-cursos,96,0,0
+1761752852824,326,Homepage,200,,Navigation Test Group 1-19,text,true,,284712,272,28,28,https://unifor.br/,147,0,0
+1761752852827,327,Graduation Page,200,,Navigation Test Group 1-29,text,true,,458729,591,28,28,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752852827,52,Graduation Page-0,301,,Navigation Test Group 1-29,,true,,317,290,28,28,https://unifor.br/web/graduacao/home,52,0,0
+1761752852880,274,Graduation Page-1,200,,Navigation Test Group 1-29,text,true,,458412,301,28,28,https://unifor.br/web/graduacao/todos-os-cursos,85,0,0
+1761752853089,302,Admissions Page,200,,Navigation Test Group 1-16,text,true,,272894,314,28,28,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,118,0,0
+1761752853124,366,Homepage,200,,Navigation Test Group 1-6,text,true,,284712,272,28,28,https://unifor.br/,186,0,0
+1761752853202,322,Homepage,200,,Navigation Test Group 1-26,text,true,,286015,272,28,28,https://unifor.br/,139,0,0
+1761752853393,320,Homepage,200,,Navigation Test Group 1-13,text,true,,284712,272,28,28,https://unifor.br/,141,0,0
+1761752853509,289,Post-Graduation Page,200,,Navigation Test Group 1-3,text,true,,175738,294,28,28,https://unifor.br/web/pos-graduacao/home,127,0,0
+1761752853480,324,Graduation Page,200,,Navigation Test Group 1-23,text,true,,458709,591,27,27,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752853480,54,Graduation Page-0,301,,Navigation Test Group 1-23,,true,,317,290,27,27,https://unifor.br/web/graduacao/home,54,0,0
+1761752853534,270,Graduation Page-1,200,,Navigation Test Group 1-23,text,true,,458392,301,27,27,https://unifor.br/web/graduacao/todos-os-cursos,84,0,0
+1761752853683,344,Homepage,200,,Navigation Test Group 1-20,text,true,,286015,272,27,27,https://unifor.br/,165,0,0
+1761752853740,288,Post-Graduation Page,200,,Navigation Test Group 1-10,text,true,,174431,294,27,27,https://unifor.br/web/pos-graduacao/home,110,0,0
+1761752853918,276,Admissions Page,200,,Navigation Test Group 1-30,text,true,,272894,314,27,27,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,86,0,0
+1761752853919,337,Homepage,200,,Navigation Test Group 1-7,text,true,,286015,272,27,27,https://unifor.br/,154,0,0
+1761752854174,323,Homepage,200,,Navigation Test Group 1-27,text,true,,284712,272,27,27,https://unifor.br/,144,0,0
+1761752854373,310,Homepage,200,,Navigation Test Group 1-14,text,true,,286015,272,27,27,https://unifor.br/,134,0,0
+1761752854478,264,Admissions Page,200,,Navigation Test Group 1-4,text,true,,272894,314,27,27,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,80,0,0
+1761752854461,331,Graduation Page,200,,Navigation Test Group 1-24,text,true,,458713,591,26,26,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752854461,53,Graduation Page-0,301,,Navigation Test Group 1-24,,true,,317,290,26,26,https://unifor.br/web/graduacao/home,53,0,0
+1761752854514,278,Graduation Page-1,200,,Navigation Test Group 1-24,text,true,,458396,301,26,26,https://unifor.br/web/graduacao/todos-os-cursos,88,0,0
+1761752854478,317,Graduation Page,200,,Navigation Test Group 1-17,text,true,,458729,591,26,26,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752854478,53,Graduation Page-0,301,,Navigation Test Group 1-17,,true,,317,290,26,26,https://unifor.br/web/graduacao/home,53,0,0
+1761752854531,264,Graduation Page-1,200,,Navigation Test Group 1-17,text,true,,458412,301,26,26,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752854707,317,Homepage,200,,Navigation Test Group 1-21,text,true,,284728,272,26,26,https://unifor.br/,140,0,0
+1761752854811,267,Admissions Page,200,,Navigation Test Group 1-11,text,true,,272890,314,26,26,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,81,0,0
+1761752854950,320,Homepage,200,,Navigation Test Group 1-8,text,true,,284692,272,26,26,https://unifor.br/,142,0,0
+1761752855072,276,News Page,200,,Navigation Test Group 1-18,text,true,,219941,280,26,26,https://unifor.br/noticias,99,0,0
+1761752855152,315,Homepage,200,,Navigation Test Group 1-28,text,true,,284724,272,26,26,https://unifor.br/,135,0,0
+1761752855364,279,Post-Graduation Page,200,,Navigation Test Group 1-5,text,true,,174431,294,26,26,https://unifor.br/web/pos-graduacao/home,101,0,0
+1761752855447,276,Post-Graduation Page,200,,Navigation Test Group 1-25,text,true,,174435,294,25,25,https://unifor.br/web/pos-graduacao/home,113,0,0
+1761752855423,323,Homepage,200,,Navigation Test Group 1-15,text,true,,286031,272,25,25,https://unifor.br/,143,0,0
+1761752855740,275,Post-Graduation Page,200,,Navigation Test Group 1-12,text,true,,175754,294,25,25,https://unifor.br/web/pos-graduacao/home,109,0,0
+1761752855751,320,Homepage,200,,Navigation Test Group 1-22,text,true,,286015,272,25,25,https://unifor.br/,143,0,0
+1761752856155,313,Homepage,200,,Navigation Test Group 1-29,text,true,,284712,272,25,25,https://unifor.br/,134,0,0
+1761752856151,321,Graduation Page,200,,Navigation Test Group 1-19,text,true,,458729,591,25,25,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752856151,52,Graduation Page-0,301,,Navigation Test Group 1-19,,true,,317,290,25,25,https://unifor.br/web/graduacao/home,52,0,0
+1761752856203,269,Graduation Page-1,200,,Navigation Test Group 1-19,text,true,,458412,301,25,25,https://unifor.br/web/graduacao/todos-os-cursos,83,0,0
+1761752856391,320,Homepage,200,,Navigation Test Group 1-16,text,true,,284708,272,25,25,https://unifor.br/,143,0,0
+1761752856490,280,News Page,200,,Navigation Test Group 1-6,text,true,,219945,280,25,25,https://unifor.br/noticias,104,0,0
+1761752856089,698,Homepage,200,,Navigation Test Group 1-9,text,true,,284712,272,24,24,https://unifor.br/,383,0,245
+1761752856524,317,Graduation Page,200,,Navigation Test Group 1-26,text,true,,458729,591,24,24,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752856524,53,Graduation Page-0,301,,Navigation Test Group 1-26,,true,,317,290,24,24,https://unifor.br/web/graduacao/home,53,0,0
+1761752856578,263,Graduation Page-1,200,,Navigation Test Group 1-26,text,true,,458412,301,24,24,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752856713,267,Post-Graduation Page,200,,Navigation Test Group 1-13,text,true,,174435,294,24,24,https://unifor.br/web/pos-graduacao/home,102,0,0
+1761752856804,321,Homepage,200,,Navigation Test Group 1-23,text,true,,284712,272,24,24,https://unifor.br/,142,0,0
+1761752857027,276,News Page,200,,Navigation Test Group 1-20,text,true,,219945,280,24,24,https://unifor.br/noticias,99,0,0
+1761752857028,326,Homepage,200,,Navigation Test Group 1-10,text,true,,284712,272,24,24,https://unifor.br/,148,0,0
+1761752857194,322,Homepage,200,,Navigation Test Group 1-30,text,true,,286015,272,24,24,https://unifor.br/,143,0,0
+1761752857256,307,Graduation Page,200,,Navigation Test Group 1-7,text,true,,458713,591,24,24,https://unifor.br/web/graduacao/todos-os-cursos,49,0,0
+1761752857256,49,Graduation Page-0,301,,Navigation Test Group 1-7,,true,,317,290,24,24,https://unifor.br/web/graduacao/home,49,0,0
+1761752857306,257,Graduation Page-1,200,,Navigation Test Group 1-7,text,true,,458396,301,24,24,https://unifor.br/web/graduacao/todos-os-cursos,74,0,0
+1761752857497,279,Post-Graduation Page,200,,Navigation Test Group 1-27,text,true,,174419,294,23,23,https://unifor.br/web/pos-graduacao/home,113,0,0
+1761752857683,310,Graduation Page,200,,Navigation Test Group 1-14,text,true,,458713,591,23,23,https://unifor.br/web/graduacao/todos-os-cursos,49,0,0
+1761752857683,49,Graduation Page-0,301,,Navigation Test Group 1-14,,true,,317,290,23,23,https://unifor.br/web/graduacao/home,49,0,0
+1761752857733,260,Graduation Page-1,200,,Navigation Test Group 1-14,text,true,,458396,301,23,23,https://unifor.br/web/graduacao/todos-os-cursos,76,0,0
+1761752857792,326,Homepage,200,,Navigation Test Group 1-24,text,true,,284712,272,23,23,https://unifor.br/,149,0,0
+1761752857794,324,Homepage,200,,Navigation Test Group 1-17,text,true,,284712,272,23,23,https://unifor.br/,146,0,0
+1761752858025,282,Post-Graduation Page,200,,Navigation Test Group 1-21,text,true,,174403,294,23,23,https://unifor.br/web/pos-graduacao/home,117,0,0
+1761752858078,318,Homepage,200,,Navigation Test Group 1-11,text,true,,286027,272,23,23,https://unifor.br/,139,0,0
+1761752858270,266,Admissions Page,200,,Navigation Test Group 1-8,text,true,,274205,314,23,23,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,79,0,0
+1761752858348,314,Homepage,200,,Navigation Test Group 1-18,text,true,,284728,272,22,22,https://unifor.br/,136,0,0
+1761752858467,277,Post-Graduation Page,200,,Navigation Test Group 1-28,text,true,,174435,294,22,22,https://unifor.br/web/pos-graduacao/home,108,0,0
+1761752858724,340,Homepage,200,,Navigation Test Group 1-25,text,true,,284712,272,22,22,https://unifor.br/,162,0,0
+1761752858745,332,Graduation Page,200,,Navigation Test Group 1-15,text,true,,460040,591,22,22,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752858745,53,Graduation Page-0,301,,Navigation Test Group 1-15,,true,,317,290,22,22,https://unifor.br/web/graduacao/home,53,0,0
+1761752858799,278,Graduation Page-1,200,,Navigation Test Group 1-15,text,true,,459723,301,22,22,https://unifor.br/web/graduacao/todos-os-cursos,92,0,0
+1761752859015,323,Homepage,200,,Navigation Test Group 1-12,text,true,,284712,272,22,22,https://unifor.br/,144,0,0
+1761752859071,326,Graduation Page,200,,Navigation Test Group 1-22,text,true,,458729,591,22,22,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752859071,53,Graduation Page-0,301,,Navigation Test Group 1-22,,true,,317,290,22,22,https://unifor.br/web/graduacao/home,53,0,0
+1761752859124,273,Graduation Page-1,200,,Navigation Test Group 1-22,text,true,,458412,301,22,22,https://unifor.br/web/graduacao/todos-os-cursos,85,0,0
+1761752859469,267,Admissions Page,200,,Navigation Test Group 1-29,text,true,,272894,314,22,22,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,82,0,0
+1761752859472,317,Homepage,200,,Navigation Test Group 1-19,text,true,,286015,272,22,22,https://unifor.br/,139,0,0
+1761752859712,281,News Page,200,,Navigation Test Group 1-16,text,true,,221248,280,22,22,https://unifor.br/noticias,104,0,0
+1761752859787,319,Graduation Page,200,,Navigation Test Group 1-9,text,true,,458729,591,22,22,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752859787,54,Graduation Page-0,301,,Navigation Test Group 1-9,,true,,317,290,22,22,https://unifor.br/web/graduacao/home,54,0,0
+1761752859841,265,Graduation Page-1,200,,Navigation Test Group 1-9,text,true,,458412,301,22,22,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752859842,390,Homepage,200,,Navigation Test Group 1-26,text,true,,286015,272,21,21,https://unifor.br/,213,0,0
+1761752859983,313,Homepage,200,,Navigation Test Group 1-13,text,true,,284712,272,21,21,https://unifor.br/,136,0,0
+1761752860126,277,Post-Graduation Page,200,,Navigation Test Group 1-23,text,true,,175738,294,21,21,https://unifor.br/web/pos-graduacao/home,109,0,0
+1761752860355,280,News Page,200,,Navigation Test Group 1-10,text,true,,221248,280,21,21,https://unifor.br/noticias,100,0,0
+1761752860304,343,Homepage,200,,Navigation Test Group 1-20,text,true,,284728,272,20,20,https://unifor.br/,166,0,0
+1761752860517,276,Post-Graduation Page,200,,Navigation Test Group 1-30,text,true,,174435,294,20,20,https://unifor.br/web/pos-graduacao/home,110,0,0
+1761752860777,319,Homepage,200,,Navigation Test Group 1-27,text,true,,284712,272,20,20,https://unifor.br/,148,0,0
+1761752860994,306,Homepage,200,,Navigation Test Group 1-14,text,true,,284712,272,20,20,https://unifor.br/,130,0,0
+1761752861119,279,Post-Graduation Page,200,,Navigation Test Group 1-17,text,true,,174435,294,20,20,https://unifor.br/web/pos-graduacao/home,115,0,0
+1761752861119,282,News Page,200,,Navigation Test Group 1-24,text,true,,219945,280,20,20,https://unifor.br/noticias,107,0,0
+1761752861308,315,Homepage,200,,Navigation Test Group 1-21,text,true,,284712,272,20,20,https://unifor.br/,138,0,0
+1761752861397,280,News Page,200,,Navigation Test Group 1-11,text,true,,219941,280,20,20,https://unifor.br/noticias,103,0,0
+1761752861663,306,Graduation Page,200,,Navigation Test Group 1-18,text,true,,458713,591,19,19,https://unifor.br/web/graduacao/todos-os-cursos,47,0,0
+1761752861663,47,Graduation Page-0,301,,Navigation Test Group 1-18,,true,,317,290,19,19,https://unifor.br/web/graduacao/home,47,0,0
+1761752861710,259,Graduation Page-1,200,,Navigation Test Group 1-18,text,true,,458396,301,19,19,https://unifor.br/web/graduacao/todos-os-cursos,75,0,0
+1761752861745,321,Homepage,200,,Navigation Test Group 1-28,text,true,,284724,272,19,19,https://unifor.br/,141,0,0
+1761752862065,271,Admissions Page,200,,Navigation Test Group 1-25,text,true,,272878,314,19,19,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,82,0,0
+1761752862078,320,Homepage,200,,Navigation Test Group 1-15,text,true,,285999,272,19,19,https://unifor.br/,142,0,0
+1761752862339,264,Admissions Page,200,,Navigation Test Group 1-12,text,true,,272894,314,19,19,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,78,0,0
+1761752862398,345,Homepage,200,,Navigation Test Group 1-22,text,true,,284712,272,18,18,https://unifor.br/,168,0,0
+1761752862737,313,Homepage,200,,Navigation Test Group 1-29,text,true,,284696,272,18,18,https://unifor.br/,135,0,0
+1761752862790,320,Graduation Page,200,,Navigation Test Group 1-19,text,true,,460024,591,18,18,https://unifor.br/web/graduacao/todos-os-cursos,51,0,0
+1761752862790,51,Graduation Page-0,301,,Navigation Test Group 1-19,,true,,317,290,18,18,https://unifor.br/web/graduacao/home,51,0,0
+1761752862841,269,Graduation Page-1,200,,Navigation Test Group 1-19,text,true,,459707,301,18,18,https://unifor.br/web/graduacao/todos-os-cursos,83,0,0
+1761752862994,355,Homepage,200,,Navigation Test Group 1-16,text,true,,284708,272,18,18,https://unifor.br/,145,0,0
+1761752863233,321,Graduation Page,200,,Navigation Test Group 1-26,text,true,,458713,591,18,18,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752863233,52,Graduation Page-0,301,,Navigation Test Group 1-26,,true,,317,290,18,18,https://unifor.br/web/graduacao/home,52,0,0
+1761752863286,268,Graduation Page-1,200,,Navigation Test Group 1-26,text,true,,458396,301,18,18,https://unifor.br/web/graduacao/todos-os-cursos,82,0,0
+1761752863298,256,Admissions Page,200,,Navigation Test Group 1-13,text,true,,272894,314,18,18,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,73,0,0
+1761752863404,323,Homepage,200,,Navigation Test Group 1-23,text,true,,284712,272,17,17,https://unifor.br/,148,0,0
+1761752863648,314,Graduation Page,200,,Navigation Test Group 1-20,text,true,,458729,591,17,17,https://unifor.br/web/graduacao/todos-os-cursos,48,0,0
+1761752863648,48,Graduation Page-0,301,,Navigation Test Group 1-20,,true,,317,290,17,17,https://unifor.br/web/graduacao/home,48,0,0
+1761752863696,266,Graduation Page-1,200,,Navigation Test Group 1-20,text,true,,458412,301,17,17,https://unifor.br/web/graduacao/todos-os-cursos,78,0,0
+1761752863794,325,Homepage,200,,Navigation Test Group 1-30,text,true,,284724,272,17,17,https://unifor.br/,149,0,0
+1761752864097,270,Admissions Page,200,,Navigation Test Group 1-27,text,true,,272878,314,17,17,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,85,0,0
+1761752864301,268,Admissions Page,200,,Navigation Test Group 1-14,text,true,,274205,314,17,17,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,77,0,0
+1761752864399,325,Homepage,200,,Navigation Test Group 1-17,text,true,,286015,272,16,16,https://unifor.br/,150,0,0
+1761752864402,342,Homepage,200,,Navigation Test Group 1-24,text,true,,284712,272,16,16,https://unifor.br/,158,0,0
+1761752864623,319,Graduation Page,200,,Navigation Test Group 1-21,text,true,,460020,591,16,16,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752864623,52,Graduation Page-0,301,,Navigation Test Group 1-21,,true,,317,290,16,16,https://unifor.br/web/graduacao/home,52,0,0
+1761752864675,267,Graduation Page-1,200,,Navigation Test Group 1-21,text,true,,459703,301,16,16,https://unifor.br/web/graduacao/todos-os-cursos,83,0,0
+1761752864969,310,Homepage,200,,Navigation Test Group 1-18,text,true,,286015,272,16,16,https://unifor.br/,133,0,0
+1761752865067,319,Graduation Page,200,,Navigation Test Group 1-28,text,true,,460036,591,16,16,https://unifor.br/web/graduacao/todos-os-cursos,55,0,0
+1761752865067,55,Graduation Page-0,301,,Navigation Test Group 1-28,,true,,317,290,16,16,https://unifor.br/web/graduacao/home,55,0,0
+1761752865122,264,Graduation Page-1,200,,Navigation Test Group 1-28,text,true,,459719,301,16,16,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752865338,316,Homepage,200,,Navigation Test Group 1-25,text,true,,284708,272,16,16,https://unifor.br/,135,0,0
+1761752865399,272,Admissions Page,200,,Navigation Test Group 1-15,text,true,,272894,314,16,16,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,83,0,0
+1761752865743,297,News Page,200,,Navigation Test Group 1-22,text,true,,219945,280,15,15,https://unifor.br/noticias,99,0,0
+1761752866051,281,Post-Graduation Page,200,,Navigation Test Group 1-29,text,true,,174435,294,15,15,https://unifor.br/web/pos-graduacao/home,112,0,0
+1761752866111,318,Homepage,200,,Navigation Test Group 1-19,text,true,,284712,272,15,15,https://unifor.br/,140,0,0
+1761752866351,278,News Page,200,,Navigation Test Group 1-16,text,true,,219945,280,15,15,https://unifor.br/noticias,101,0,0
+1761752866556,322,Homepage,200,,Navigation Test Group 1-26,text,true,,284692,272,14,14,https://unifor.br/,143,0,0
+1761752866729,315,Graduation Page,200,,Navigation Test Group 1-23,text,true,,460040,591,14,14,https://unifor.br/web/graduacao/todos-os-cursos,51,0,0
+1761752866729,51,Graduation Page-0,301,,Navigation Test Group 1-23,,true,,317,290,14,14,https://unifor.br/web/graduacao/home,51,0,0
+1761752866781,263,Graduation Page-1,200,,Navigation Test Group 1-23,text,true,,459723,301,14,14,https://unifor.br/web/graduacao/todos-os-cursos,79,0,0
+1761752866964,319,Homepage,200,,Navigation Test Group 1-20,text,true,,284712,272,14,14,https://unifor.br/,138,0,0
+1761752867121,318,Graduation Page,200,,Navigation Test Group 1-30,text,true,,458725,591,14,14,https://unifor.br/web/graduacao/todos-os-cursos,53,0,0
+1761752867121,53,Graduation Page-0,301,,Navigation Test Group 1-30,,true,,317,290,14,14,https://unifor.br/web/graduacao/home,53,0,0
+1761752867174,265,Graduation Page-1,200,,Navigation Test Group 1-30,text,true,,458408,301,14,14,https://unifor.br/web/graduacao/todos-os-cursos,80,0,0
+1761752867369,319,Homepage,200,,Navigation Test Group 1-27,text,true,,284712,272,14,14,https://unifor.br/,143,0,0
+1761752867726,284,News Page,200,,Navigation Test Group 1-17,text,true,,221248,280,14,14,https://unifor.br/noticias,107,0,0
+1761752867746,276,Post-Graduation Page,200,,Navigation Test Group 1-24,text,true,,175754,294,13,13,https://unifor.br/web/pos-graduacao/home,110,0,0
+1761752867944,318,Homepage,200,,Navigation Test Group 1-21,text,true,,284712,272,13,13,https://unifor.br/,141,0,0
+1761752868280,275,Post-Graduation Page,200,,Navigation Test Group 1-18,text,true,,174419,294,13,13,https://unifor.br/web/pos-graduacao/home,109,0,0
+1761752868387,323,Homepage,200,,Navigation Test Group 1-28,text,true,,284712,272,12,12,https://unifor.br/,148,0,0
+1761752868656,272,Post-Graduation Page,200,,Navigation Test Group 1-25,text,true,,174403,294,12,12,https://unifor.br/web/pos-graduacao/home,106,0,0
+1761752869042,335,Homepage,200,,Navigation Test Group 1-22,text,true,,284712,272,12,12,https://unifor.br/,159,0,0
+1761752869334,325,Homepage,200,,Navigation Test Group 1-29,text,true,,284712,272,12,12,https://unifor.br/,144,0,0
+1761752869431,281,News Page,200,,Navigation Test Group 1-19,text,true,,219945,280,12,12,https://unifor.br/noticias,104,0,0
+1761752869879,280,News Page,200,,Navigation Test Group 1-26,text,true,,219941,280,11,11,https://unifor.br/noticias,103,0,0
+1761752870046,317,Homepage,200,,Navigation Test Group 1-23,text,true,,284708,272,11,11,https://unifor.br/,140,0,0
+1761752870284,279,News Page,200,,Navigation Test Group 1-20,text,true,,221248,280,11,11,https://unifor.br/noticias,102,0,0
+1761752870440,311,Homepage,200,,Navigation Test Group 1-30,text,true,,286015,272,10,10,https://unifor.br/,135,0,0
+1761752870689,276,News Page,200,,Navigation Test Group 1-27,text,true,,219945,280,10,10,https://unifor.br/noticias,100,0,0
+1761752871022,319,Homepage,200,,Navigation Test Group 1-24,text,true,,284712,272,10,10,https://unifor.br/,145,0,0
+1761752871263,333,Graduation Page,200,,Navigation Test Group 1-21,text,true,,458713,591,10,10,https://unifor.br/web/graduacao/todos-os-cursos,54,0,0
+1761752871263,54,Graduation Page-0,301,,Navigation Test Group 1-21,,true,,317,290,10,10,https://unifor.br/web/graduacao/home,54,0,0
+1761752871317,279,Graduation Page-1,200,,Navigation Test Group 1-21,text,true,,458396,301,10,10,https://unifor.br/web/graduacao/todos-os-cursos,88,0,0
+1761752871711,277,Post-Graduation Page,200,,Navigation Test Group 1-28,text,true,,174435,294,9,9,https://unifor.br/web/pos-graduacao/home,107,0,0
+1761752871929,322,Homepage,200,,Navigation Test Group 1-25,text,true,,284712,272,9,9,https://unifor.br/,144,0,0
+1761752872378,279,News Page,200,,Navigation Test Group 1-22,text,true,,219945,280,9,9,https://unifor.br/noticias,103,0,0
+1761752872660,318,Graduation Page,200,,Navigation Test Group 1-29,text,true,,458729,591,8,8,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752872660,52,Graduation Page-0,301,,Navigation Test Group 1-29,,true,,317,290,8,8,https://unifor.br/web/graduacao/home,52,0,0
+1761752872712,266,Graduation Page-1,200,,Navigation Test Group 1-29,text,true,,458412,301,8,8,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752873160,332,Homepage,200,,Navigation Test Group 1-26,text,true,,284712,272,8,8,https://unifor.br/,153,0,0
+1761752873363,326,Graduation Page,200,,Navigation Test Group 1-23,text,true,,460020,591,8,8,https://unifor.br/web/graduacao/todos-os-cursos,55,0,0
+1761752873363,55,Graduation Page-0,301,,Navigation Test Group 1-23,,true,,317,290,8,8,https://unifor.br/web/graduacao/home,55,0,0
+1761752873418,271,Graduation Page-1,200,,Navigation Test Group 1-23,text,true,,459703,301,8,8,https://unifor.br/web/graduacao/todos-os-cursos,82,0,0
+1761752873751,268,Admissions Page,200,,Navigation Test Group 1-30,text,true,,272890,314,7,7,https://unifor.br/web/graduacao/processo-seletivo/inscricoes,81,0,0
+1761752873965,327,Homepage,200,,Navigation Test Group 1-27,text,true,,286015,272,7,7,https://unifor.br/,146,0,0
+1761752874342,275,News Page,200,,Navigation Test Group 1-24,text,true,,219945,280,7,7,https://unifor.br/noticias,99,0,0
+1761752874988,341,Homepage,200,,Navigation Test Group 1-28,text,true,,284724,272,6,6,https://unifor.br/,159,0,0
+1761752875252,286,News Page,200,,Navigation Test Group 1-25,text,true,,219945,280,6,6,https://unifor.br/noticias,107,0,0
+1761752875978,337,Homepage,200,,Navigation Test Group 1-29,text,true,,284712,272,5,5,https://unifor.br/,158,0,0
+1761752876492,324,Graduation Page,200,,Navigation Test Group 1-26,text,true,,458713,591,5,5,https://unifor.br/web/graduacao/todos-os-cursos,52,0,0
+1761752876492,52,Graduation Page-0,301,,Navigation Test Group 1-26,,true,,317,290,5,5,https://unifor.br/web/graduacao/home,52,0,0
+1761752876545,271,Graduation Page-1,200,,Navigation Test Group 1-26,text,true,,458396,301,5,5,https://unifor.br/web/graduacao/todos-os-cursos,86,0,0
+1761752877019,321,Homepage,200,,Navigation Test Group 1-30,text,true,,284708,272,4,4,https://unifor.br/,143,0,0
+1761752877292,284,News Page,200,,Navigation Test Group 1-27,text,true,,219945,280,4,4,https://unifor.br/noticias,107,0,0
+1761752878330,339,Graduation Page,200,,Navigation Test Group 1-28,text,true,,458725,591,3,3,https://unifor.br/web/graduacao/todos-os-cursos,70,0,0
+1761752878330,70,Graduation Page-0,301,,Navigation Test Group 1-28,,true,,317,290,3,3,https://unifor.br/web/graduacao/home,70,0,0
+1761752878400,269,Graduation Page-1,200,,Navigation Test Group 1-28,text,true,,458408,301,3,3,https://unifor.br/web/graduacao/todos-os-cursos,81,0,0
+1761752879316,283,News Page,200,,Navigation Test Group 1-29,text,true,,219945,280,2,2,https://unifor.br/noticias,102,0,0
+1761752880341,289,Post-Graduation Page,200,,Navigation Test Group 1-30,text,true,,174435,294,1,1,https://unifor.br/web/pos-graduacao/home,119,0,0

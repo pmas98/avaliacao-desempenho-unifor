@@ -1,0 +1,34 @@
+{
+  "Search Request - UFC" : {
+    "transaction" : "Search Request - UFC",
+    "sampleCount" : 100,
+    "errorCount" : 100,
+    "errorPct" : 100.0,
+    "meanResTime" : 20605.06,
+    "medianResTime" : 23810.5,
+    "minResTime" : 7681.0,
+    "maxResTime" : 25851.0,
+    "pct1ResTime" : 25001.0,
+    "pct2ResTime" : 25504.399999999998,
+    "pct3ResTime" : 25850.76,
+    "throughput" : 0.6821794268328455,
+    "receivedKBytesPerSec" : 23.611002744066745,
+    "sentKBytesPerSec" : 0.22916965120165905
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 100,
+    "errorPct" : 100.0,
+    "meanResTime" : 20605.06,
+    "medianResTime" : 23810.5,
+    "minResTime" : 7681.0,
+    "maxResTime" : 25851.0,
+    "pct1ResTime" : 25001.0,
+    "pct2ResTime" : 25504.399999999998,
+    "pct3ResTime" : 25850.76,
+    "throughput" : 0.6821794268328455,
+    "receivedKBytesPerSec" : 23.611002744066745,
+    "sentKBytesPerSec" : 0.22916965120165905
+  }
+}
