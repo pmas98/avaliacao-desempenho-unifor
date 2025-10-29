@@ -7,6 +7,9 @@
     "test": "node axe-accessibility-test.js",
     "test:headless": "node axe-accessibility-test.js --headless",
     "test:report": "node axe-accessibility-test.js --report",
+    "test:ufc": "node ufc-accessibility-test.js",
+    "test:ufc:headless": "node ufc-accessibility-test.js --headless",
+    "test:ufc:report": "node ufc-accessibility-test.js --report",
     "install-deps": "npm install"
   },
   "dependencies": {

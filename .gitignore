@@ -96,7 +96,7 @@ logs
 
 # JMeter specific files
 jmeter.log
-
+*.jtl
 # IDE and editor files
 .vscode/
 .idea/
