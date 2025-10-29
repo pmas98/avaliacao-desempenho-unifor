@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1761745426251,1618,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-1,text,true,,55521,263,5,5,https://www.ufc.br/,1412,0,675
+1761745427149,1260,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,55521,263,6,6,https://www.ufc.br/,1052,0,335
+1761745428147,1450,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,55528,263,7,7,https://www.ufc.br/,1239,0,332
+1761745429147,1286,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,55521,263,8,8,https://www.ufc.br/,1090,0,305
+1761745430872,504,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-1,text,true,,22129,269,9,9,https://www.ufc.br/ensino,402,0,0
+1761745430146,1329,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,55521,263,9,9,https://www.ufc.br/,1121,0,308
+1761745431410,481,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-2,text,true,,22129,269,9,9,https://www.ufc.br/ensino,377,0,0
+1761745431146,1256,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,55521,263,10,10,https://www.ufc.br/,1060,0,326
+1761745432599,623,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-3,text,true,,20627,271,11,11,https://www.ufc.br/pesquisa,519,0,0
+1761745432146,1368,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,55521,263,11,11,https://www.ufc.br/,1175,0,301
+1761745433434,473,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-4,text,true,,21132,292,11,11,https://www.ufc.br/editais-e-concursos/graduacao,375,0,0
+1761745433146,1208,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,55521,263,12,12,https://www.ufc.br/,1012,0,310
+1761745434476,636,News Page - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,34138,271,12,12,https://www.ufc.br/noticias,533,0,0
+1761745434379,938,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-1,text,true,,55520,263,13,13,https://www.ufc.br/,729,0,0
+1761745434146,1203,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,55521,263,13,13,https://www.ufc.br/,988,0,312
+1761745434892,907,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,55520,263,13,13,https://www.ufc.br/,699,0,0
+1761745435403,687,News Page - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,34138,271,13,13,https://www.ufc.br/noticias,583,0,0
+1761745435147,1294,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,55521,263,14,14,https://www.ufc.br/,1098,0,303
+1761745436223,999,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,55520,263,15,15,https://www.ufc.br/,787,0,0
+1761745436516,766,News Page - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,34138,271,15,15,https://www.ufc.br/noticias,666,0,0
+1761745436147,1243,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,55521,263,15,15,https://www.ufc.br/,1047,0,299
+1761745436908,908,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,55520,263,15,15,https://www.ufc.br/,709,0,0
+1761745437356,592,News Page - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,34138,271,15,15,https://www.ufc.br/noticias,494,0,0
+1761745437145,1328,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-12,text,true,,55521,263,16,16,https://www.ufc.br/,1108,0,330
+1761745438319,541,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-1,text,true,,21132,292,16,16,https://www.ufc.br/editais-e-concursos/graduacao,434,0,0
+1761745438350,510,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-9,text,true,,20627,271,16,16,https://www.ufc.br/pesquisa,407,0,0
+1761745438113,891,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,55520,263,16,16,https://www.ufc.br/,694,0,0
+1761745438800,612,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-2,text,true,,22129,269,17,17,https://www.ufc.br/ensino,508,0,0
+1761745438146,1357,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,55521,263,17,17,https://www.ufc.br/,1169,0,287
+1761745439443,503,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-10,text,true,,20627,271,17,17,https://www.ufc.br/pesquisa,409,0,0
+1761745439091,933,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,55520,263,17,17,https://www.ufc.br/,737,0,0
+1761745439146,1307,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,55521,263,18,18,https://www.ufc.br/,1111,0,306
+1761745440223,616,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-3,text,true,,22129,269,18,18,https://www.ufc.br/ensino,511,0,0
+1761745440391,705,News Page - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,34138,271,18,18,https://www.ufc.br/noticias,601,0,0
+1761745440283,957,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,55520,263,19,19,https://www.ufc.br/,766,0,0
+1761745440817,483,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-4,text,true,,20627,271,19,19,https://www.ufc.br/pesquisa,385,0,0
+1761745440146,1200,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,55521,263,19,19,https://www.ufc.br/,1010,0,288
+1761745440949,920,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,55520,263,19,19,https://www.ufc.br/,724,0,0
+1761745441474,507,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-12,text,true,,20634,271,19,19,https://www.ufc.br/pesquisa,398,0,0
+1761745441147,1294,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-16,text,true,,55521,263,20,20,https://www.ufc.br/,1087,0,321
+1761745442005,491,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-5,text,true,,21132,292,20,20,https://www.ufc.br/editais-e-concursos/graduacao,395,0,0
+1761745441861,956,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-1,text,true,,55520,263,20,20,https://www.ufc.br/,748,0,0
+1761745441861,992,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,55519,263,20,20,https://www.ufc.br/,788,0,0
+1761745442504,448,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-13,text,true,,20627,271,20,20,https://www.ufc.br/pesquisa,357,0,0
+1761745442146,1258,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-17,text,true,,55521,263,21,21,https://www.ufc.br/,1067,0,298
+1761745442413,996,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,55520,263,21,21,https://www.ufc.br/,786,0,0
+1761745443026,491,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-6,text,true,,21132,292,21,21,https://www.ufc.br/editais-e-concursos/graduacao,393,0,0
+1761745442947,886,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,55519,263,21,21,https://www.ufc.br/,693,0,0
+1761745443454,485,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-14,text,true,,22129,269,21,21,https://www.ufc.br/ensino,388,0,0
+1761745443146,1283,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,55521,263,22,22,https://www.ufc.br/,1083,0,314
+1761745444241,470,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-7,text,true,,21132,292,22,22,https://www.ufc.br/editais-e-concursos/graduacao,373,0,0
+1761745444348,457,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-15,text,true,,22129,269,22,22,https://www.ufc.br/ensino,365,0,0
+1761745443840,977,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,55520,263,22,22,https://www.ufc.br/,762,0,0
+1761745444097,906,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,55521,263,22,22,https://www.ufc.br/,711,0,0
+1761745444301,974,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,55520,263,23,23,https://www.ufc.br/,775,0,0
+1761745444146,1222,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,55527,263,23,23,https://www.ufc.br/,1021,0,312
+1761745444870,553,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-8,text,true,,21132,292,23,23,https://www.ufc.br/editais-e-concursos/graduacao,452,0,0
+1761745445443,447,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-16,text,true,,22129,269,23,23,https://www.ufc.br/ensino,345,0,0
+1761745444983,1045,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-12,text,true,,55520,263,23,23,https://www.ufc.br/,820,0,0
+1761745445146,1141,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,55527,263,24,24,https://www.ufc.br/,947,0,298
+1761745445818,484,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-1,text,true,,22129,269,24,24,https://www.ufc.br/ensino,383,0,0
+1761745445855,521,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-9,text,true,,21132,292,24,24,https://www.ufc.br/editais-e-concursos/graduacao,423,0,0
+1761745445497,895,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,55526,263,24,24,https://www.ufc.br/,695,0,0
+1761745446405,478,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-17,text,true,,20626,271,24,24,https://www.ufc.br/pesquisa,381,0,0
+1761745445953,930,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,55534,263,24,24,https://www.ufc.br/,736,0,0
+1761745446409,522,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-2,text,true,,20627,271,24,24,https://www.ufc.br/pesquisa,411,0,0
+1761745446518,916,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,55527,263,25,25,https://www.ufc.br/,711,0,0
+1761745446145,1296,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-21,text,true,,55521,263,25,25,https://www.ufc.br/,1083,0,313
+1761745446834,670,News Page - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,34145,271,25,25,https://www.ufc.br/noticias,575,0,0
+1761745447430,449,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-18,text,true,,20627,271,25,25,https://www.ufc.br/pesquisa,351,0,0
+1761745446940,955,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,55520,263,25,25,https://www.ufc.br/,761,0,0
+1761745447818,559,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-3,text,true,,22129,269,26,26,https://www.ufc.br/ensino,450,0,0
+1761745447146,1310,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,55521,263,26,26,https://www.ufc.br/,1073,0,335
+1761745448004,575,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-11,text,true,,21132,292,26,26,https://www.ufc.br/editais-e-concursos/graduacao,478,0,0
+1761745447712,981,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,55520,263,26,26,https://www.ufc.br/,783,0,0
+1761745448276,515,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-4,text,true,,21132,292,26,26,https://www.ufc.br/editais-e-concursos/graduacao,417,0,0
+1761745447806,1019,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,55521,263,26,26,https://www.ufc.br/,812,0,0
+1761745448369,516,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-19,text,true,,20627,271,26,26,https://www.ufc.br/pesquisa,414,0,0
+1761745448425,990,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,55520,263,27,27,https://www.ufc.br/,784,0,0
+1761745448147,1297,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,55521,263,27,27,https://www.ufc.br/,1089,0,296
+1761745449029,476,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-12,text,true,,22129,269,27,27,https://www.ufc.br/ensino,363,0,0
+1761745448891,918,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-16,text,true,,55520,263,27,27,https://www.ufc.br/,701,0,0
+1761745449288,586,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-20,text,true,,21132,292,27,27,https://www.ufc.br/editais-e-concursos/graduacao,489,0,0
+1761745449393,559,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-5,text,true,,22135,269,27,27,https://www.ufc.br/ensino,463,0,0
+1761745449884,426,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-13,text,true,,22129,269,28,28,https://www.ufc.br/ensino,335,0,0
+1761745449303,1060,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-1,text,true,,55520,263,28,28,https://www.ufc.br/,848,0,0
+1761745449146,1236,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-24,text,true,,55521,263,28,28,https://www.ufc.br/,1043,0,306
+1761745449378,1088,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,55520,263,28,28,https://www.ufc.br/,878,0,0
+1761745449884,959,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-17,text,true,,55520,263,28,28,https://www.ufc.br/,760,0,0
+1761745449932,930,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,55520,263,28,28,https://www.ufc.br/,721,0,0
+1761745450434,450,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-6,text,true,,21132,292,28,28,https://www.ufc.br/editais-e-concursos/graduacao,348,0,0
+1761745450442,462,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-21,text,true,,20627,271,28,28,https://www.ufc.br/pesquisa,359,0,0
+1761745450148,1227,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,55521,263,29,29,https://www.ufc.br/,1025,0,319
+1761745450506,941,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,55520,263,29,29,https://www.ufc.br/,751,0,0
+1761745450897,709,News Page - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,34138,271,29,29,https://www.ufc.br/noticias,610,0,0
+1761745450880,1046,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,55520,263,29,29,https://www.ufc.br/,836,0,0
+1761745451457,511,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-22,text,true,,20627,271,29,29,https://www.ufc.br/pesquisa,403,0,0
+1761745451694,442,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-7,text,true,,21132,292,29,29,https://www.ufc.br/editais-e-concursos/graduacao,348,0,0
+1761745451825,443,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-15,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,351,0,0
+1761745451378,941,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,55520,263,30,30,https://www.ufc.br/,727,0,0
+1761745451146,1325,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-26,text,true,,55521,263,30,30,https://www.ufc.br/,1120,0,304
+1761745451581,957,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,55526,263,30,30,https://www.ufc.br/,757,0,0
+1761745451792,998,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,55520,263,30,30,https://www.ufc.br/,801,0,0
+1761745451887,928,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,55520,263,30,30,https://www.ufc.br/,729,0,0
+1761745452417,458,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-8,text,true,,22129,269,30,30,https://www.ufc.br/ensino,360,0,0
+1761745452444,605,News Page - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,34138,271,30,30,https://www.ufc.br/noticias,512,0,0
+1761745452810,560,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-16,text,true,,22129,269,30,30,https://www.ufc.br/ensino,451,0,0
+1761745452146,1288,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,55521,263,30,30,https://www.ufc.br/,1080,0,334
+1761745452505,941,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-12,text,true,,55520,263,30,30,https://www.ufc.br/,728,0,0
+1761745453383,465,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-24,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,369,0,0
+1761745453370,478,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-1,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,376,0,0
+1761745452875,983,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,55520,263,30,30,https://www.ufc.br/,790,0,0
+1761745452953,967,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,55520,263,30,30,https://www.ufc.br/,767,0,0
+1761745453466,728,News Page - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,34138,271,30,30,https://www.ufc.br/noticias,626,0,0
+1761745453311,926,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,55520,263,30,30,https://www.ufc.br/,739,0,0
+1761745453845,487,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-17,text,true,,22129,269,30,30,https://www.ufc.br/ensino,390,0,0
+1761745453863,480,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-2,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,372,0,0
+1761745453149,1307,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,55521,263,30,30,https://www.ufc.br/,1108,0,319
+1761745453886,940,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,55520,263,30,30,https://www.ufc.br/,744,0,0
+1761745454375,580,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-25,text,true,,22129,269,30,30,https://www.ufc.br/ensino,479,0,0
+1761745453905,1052,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-21,text,true,,55520,263,30,30,https://www.ufc.br/,850,0,0
+1761745454449,563,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-10,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,468,0,0
+1761745454927,521,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-18,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,421,0,0
+1761745454147,1374,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-29,text,true,,55521,263,30,30,https://www.ufc.br/,1169,0,310
+1761745454607,994,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,55520,263,30,30,https://www.ufc.br/,797,0,0
+1761745455320,502,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-3,text,true,,20634,271,30,30,https://www.ufc.br/pesquisa,395,0,0
+1761745454969,964,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,55526,263,30,30,https://www.ufc.br/,749,0,0
+1761745455472,487,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-26,text,true,,22129,269,30,30,https://www.ufc.br/ensino,389,0,0
+1761745455540,468,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-11,text,true,,22129,269,30,30,https://www.ufc.br/ensino,371,0,0
+1761745455137,881,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,55520,263,30,30,https://www.ufc.br/,685,0,0
+1761745455269,905,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,55520,263,30,30,https://www.ufc.br/,719,0,0
+1761745455791,467,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-4,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,370,0,0
+1761745455816,449,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-19,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,348,0,0
+1761745455147,1223,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,55521,263,30,30,https://www.ufc.br/,1020,0,307
+1761745455876,986,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,55520,263,30,30,https://www.ufc.br/,778,0,0
+1761745456447,507,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-12,text,true,,22129,269,30,30,https://www.ufc.br/ensino,400,0,0
+1761745456050,980,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,55520,263,30,30,https://www.ufc.br/,797,0,0
+1761745456435,675,News Page - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,34139,271,30,30,https://www.ufc.br/noticias,570,0,0
+1761745456370,992,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-16,text,true,,55540,263,30,30,https://www.ufc.br/,787,0,0
+1761745456859,518,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-20,text,true,,22129,269,30,30,https://www.ufc.br/ensino,424,0,0
+1761745456921,520,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-5,text,true,,22129,269,30,30,https://www.ufc.br/ensino,423,0,0
+1761745457238,458,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-13,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,360,0,0
+1761745456849,998,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-24,text,true,,55520,263,30,30,https://www.ufc.br/,789,0,0
+1761745456849,1003,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-1,text,true,,55520,263,30,30,https://www.ufc.br/,780,0,0
+1761745457457,504,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-28,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,405,0,0
+1761745457195,862,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,55519,263,30,30,https://www.ufc.br/,657,0,0
+1761745457333,907,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-17,text,true,,55519,263,30,30,https://www.ufc.br/,712,0,0
+1761745457343,920,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,55519,263,30,30,https://www.ufc.br/,712,0,0
+1761745457827,489,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-6,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,394,0,0
+1761745457958,528,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-21,text,true,,22136,269,30,30,https://www.ufc.br/ensino,431,0,0
+1761745458013,918,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,55520,263,30,30,https://www.ufc.br/,720,0,0
+1761745457956,982,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,55520,263,30,30,https://www.ufc.br/,773,0,0
+1761745458521,465,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-29,text,true,,22129,269,30,30,https://www.ufc.br/ensino,366,0,0
+1761745458602,517,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-14,text,true,,22129,269,30,30,https://www.ufc.br/ensino,417,0,0
+1761745458449,1092,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,55533,263,30,30,https://www.ufc.br/,884,0,0
+1761745458934,637,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-22,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,531,0,0
+1761745459018,620,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-7,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,526,0,0
+1761745459175,533,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-15,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,441,0,0
+1761745459371,510,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-30,text,true,,22129,269,30,30,https://www.ufc.br/ensino,411,0,0
+1761745458823,1146,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,55526,263,30,30,https://www.ufc.br/,928,0,0
+1761745459009,1005,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,55520,263,30,30,https://www.ufc.br/,806,0,0
+1761745458960,1081,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-26,text,true,,55526,263,30,30,https://www.ufc.br/,879,0,0
+1761745459260,969,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,55520,263,30,30,https://www.ufc.br/,763,0,0
+1761745459266,996,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,55519,263,30,30,https://www.ufc.br/,791,0,0
+1761745459863,526,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-8,text,true,,22129,269,30,30,https://www.ufc.br/ensino,428,0,0
+1761745460030,478,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-23,text,true,,20627,271,30,30,https://www.ufc.br/pesquisa,388,0,0
+1761745460363,451,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-16,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,346,0,0
+1761745459954,995,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-12,text,true,,55520,263,30,30,https://www.ufc.br/,773,0,0
+1761745460112,965,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,55526,263,30,30,https://www.ufc.br/,747,0,0
+1761745460378,956,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,55520,263,30,30,https://www.ufc.br/,760,0,0
+1761745460848,490,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-24,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,391,0,0
+1761745460853,521,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-1,text,true,,21132,292,30,30,https://www.ufc.br/editais-e-concursos/graduacao,417,0,0
+1761745460442,968,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-5,text,true,,55520,263,29,29,https://www.ufc.br/,758,0,0
+1761745461058,491,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-9,text,true,,22129,269,29,29,https://www.ufc.br/ensino,379,0,0
+1761745460697,944,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,55520,263,29,29,https://www.ufc.br/,716,0,0
+1761745461240,493,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-17,text,true,,21132,292,29,29,https://www.ufc.br/editais-e-concursos/graduacao,401,0,0
+1761745460962,907,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,55520,263,29,29,https://www.ufc.br/,706,0,0
+1761745461265,699,News Page - UFC,200,OK,Navigation Test Group - UFC 1-2,text,true,,34138,271,29,29,https://www.ufc.br/noticias,594,0,0
+1761745461317,931,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-6,text,true,,55520,263,28,28,https://www.ufc.br/,736,0,0
+1761745461487,943,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-21,text,true,,55520,263,28,28,https://www.ufc.br/,736,0,0
+1761745461932,498,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-10,text,true,,20627,271,28,28,https://www.ufc.br/pesquisa,399,0,0
+1761745461938,665,News Page - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,34138,271,28,28,https://www.ufc.br/noticias,561,0,0
+1761745461987,998,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-29,text,true,,55520,263,28,28,https://www.ufc.br/,783,0,0
+1761745462120,965,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,55520,263,28,28,https://www.ufc.br/,757,0,0
+1761745462542,682,News Page - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,34138,271,28,28,https://www.ufc.br/noticias,578,0,0
+1761745462572,924,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,55520,263,28,28,https://www.ufc.br/,708,0,0
+1761745463015,490,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-11,text,true,,21132,292,28,28,https://www.ufc.br/editais-e-concursos/graduacao,390,0,0
+1761745463042,546,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-26,text,true,,21132,292,28,28,https://www.ufc.br/editais-e-concursos/graduacao,450,0,0
+1761745462639,996,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-7,text,true,,55520,263,28,28,https://www.ufc.br/,799,0,0
+1761745462709,993,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,55526,263,28,28,https://www.ufc.br/,801,0,0
+1761745462970,802,News Page - UFC,200,OK,Navigation Test Group - UFC 1-3,text,true,,34138,271,28,28,https://www.ufc.br/noticias,694,0,0
+1761745462882,1009,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,55520,263,27,27,https://www.ufc.br/,810,0,0
+1761745463230,755,News Page - UFC,200,OK,Navigation Test Group - UFC 1-4,text,true,,34138,271,27,27,https://www.ufc.br/noticias,652,0,0
+1761745463263,745,News Page - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,34138,271,26,26,https://www.ufc.br/noticias,643,0,0
+1761745463390,1025,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-8,text,true,,55520,263,26,26,https://www.ufc.br/,815,0,0
+1761745463950,521,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-12,text,true,,21132,292,26,26,https://www.ufc.br/editais-e-concursos/graduacao,411,0,0
+1761745463508,999,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,55526,263,26,26,https://www.ufc.br/,808,0,0
+1761745464078,478,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-27,text,true,,21132,292,26,26,https://www.ufc.br/editais-e-concursos/graduacao,376,0,0
+1761745464336,455,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-20,text,true,,20627,271,26,26,https://www.ufc.br/pesquisa,360,0,0
+1761745463815,992,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-16,text,true,,55520,263,26,26,https://www.ufc.br/,784,0,0
+1761745464411,453,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-5,text,true,,20627,271,26,26,https://www.ufc.br/pesquisa,357,0,0
+1761745464339,900,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-24,text,true,,55520,263,25,25,https://www.ufc.br/,706,0,0
+1761745464642,704,News Page - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,34138,271,25,25,https://www.ufc.br/noticias,609,0,0
+1761745464870,611,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-28,text,true,,20627,271,25,25,https://www.ufc.br/pesquisa,508,0,0
+1761745464550,1043,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,55520,263,25,25,https://www.ufc.br/,828,0,0
+1761745464734,977,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-17,text,true,,55520,263,25,25,https://www.ufc.br/,780,0,0
+1761745465249,462,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-6,text,true,,20627,271,25,25,https://www.ufc.br/pesquisa,366,0,0
+1761745465431,459,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-21,text,true,,21132,292,24,24,https://www.ufc.br/editais-e-concursos/graduacao,361,0,0
+1761745465431,896,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-10,text,true,,55526,263,24,24,https://www.ufc.br/,701,0,0
+1761745465986,532,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-29,text,true,,20627,271,24,24,https://www.ufc.br/pesquisa,429,0,0
+1761745465603,955,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,55520,263,24,24,https://www.ufc.br/,754,0,0
+1761745466086,536,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-14,text,true,,21132,292,24,24,https://www.ufc.br/editais-e-concursos/graduacao,439,0,0
+1761745466497,531,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-22,text,true,,22129,269,24,24,https://www.ufc.br/ensino,422,0,0
+1761745466636,532,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-7,text,true,,20627,271,24,24,https://www.ufc.br/pesquisa,432,0,0
+1761745466225,1112,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,55520,263,23,23,https://www.ufc.br/,914,0,0
+1761745466891,507,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-30,text,true,,20627,271,23,23,https://www.ufc.br/pesquisa,409,0,0
+1761745466703,699,News Page - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,34138,271,23,23,https://www.ufc.br/noticias,594,0,0
+1761745466506,1113,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-11,text,true,,55519,263,23,23,https://www.ufc.br/,915,0,0
+1761745466588,1063,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-26,text,true,,55519,263,23,23,https://www.ufc.br/,868,0,0
+1761745467416,498,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-8,text,true,,21132,292,23,23,https://www.ufc.br/editais-e-concursos/graduacao,403,0,0
+1761745467507,436,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-23,text,true,,20627,271,22,22,https://www.ufc.br/pesquisa,346,0,0
+1761745467009,1028,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,55520,263,22,22,https://www.ufc.br/,827,0,0
+1761745467808,547,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-16,text,true,,22129,269,22,22,https://www.ufc.br/ensino,433,0,0
+1761745467556,912,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,55520,263,22,22,https://www.ufc.br/,689,0,0
+1761745467472,1001,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-12,text,true,,55519,263,22,22,https://www.ufc.br/,773,0,0
+1761745467792,950,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,55520,263,22,22,https://www.ufc.br/,750,0,0
+1761745468240,768,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-24,text,true,,22129,269,22,22,https://www.ufc.br/ensino,673,0,0
+1761745468712,424,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-17,text,true,,20626,271,22,22,https://www.ufc.br/pesquisa,326,0,0
+1761745468347,899,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-13,text,true,,55520,263,22,22,https://www.ufc.br/,713,0,0
+1761745468594,671,News Page - UFC,200,OK,Navigation Test Group - UFC 1-9,text,true,,34138,271,22,22,https://www.ufc.br/noticias,569,0,0
+1761745468481,899,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,55520,263,21,21,https://www.ufc.br/,696,0,0
+1761745469328,567,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-10,text,true,,20627,271,21,21,https://www.ufc.br/pesquisa,473,0,0
+1761745468890,1065,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-21,text,true,,55526,263,20,20,https://www.ufc.br/,864,0,0
+1761745469559,833,News Page - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,34138,271,20,20,https://www.ufc.br/noticias,731,0,0
+1761745469519,986,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-29,text,true,,55520,263,20,20,https://www.ufc.br/,774,0,0
+1761745469623,963,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-14,text,true,,55520,263,20,20,https://www.ufc.br/,750,0,0
+1761745470338,474,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-18,text,true,,20626,271,20,20,https://www.ufc.br/pesquisa,376,0,0
+1761745470029,1000,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,55533,263,20,20,https://www.ufc.br/,781,0,0
+1761745470652,476,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-26,text,true,,22129,269,20,20,https://www.ufc.br/ensino,377,0,0
+1761745470620,518,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-11,text,true,,20627,271,20,20,https://www.ufc.br/pesquisa,418,0,0
+1761745470398,945,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,55520,263,19,19,https://www.ufc.br/,747,0,0
+1761745470403,985,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-15,text,true,,55526,263,19,19,https://www.ufc.br/,800,0,0
+1761745471038,436,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-19,text,true,,21132,292,19,19,https://www.ufc.br/editais-e-concursos/graduacao,336,0,0
+1761745470944,861,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,55520,263,19,19,https://www.ufc.br/,677,0,0
+1761745471474,472,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-12,text,true,,20627,271,19,19,https://www.ufc.br/pesquisa,366,0,0
+1761745471468,697,News Page - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,34138,271,18,18,https://www.ufc.br/noticias,590,0,0
+1761745471744,527,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-20,text,true,,22129,269,18,18,https://www.ufc.br/ensino,432,0,0
+1761745471356,982,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-16,text,true,,55526,263,18,18,https://www.ufc.br/,776,0,0
+1761745472247,491,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-13,text,true,,22129,269,18,18,https://www.ufc.br/ensino,400,0,0
+1761745472381,510,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-28,text,true,,21132,292,17,17,https://www.ufc.br/editais-e-concursos/graduacao,410,0,0
+1761745472009,958,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-24,text,true,,55520,263,17,17,https://www.ufc.br/,753,0,0
+1761745472137,939,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-17,text,true,,55520,263,17,17,https://www.ufc.br/,748,0,0
+1761745472956,542,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-21,text,true,,20627,271,17,17,https://www.ufc.br/pesquisa,444,0,0
+1761745473506,485,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-29,text,true,,22129,269,17,17,https://www.ufc.br/ensino,382,0,0
+1761745473587,481,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-14,text,true,,21132,292,17,17,https://www.ufc.br/editais-e-concursos/graduacao,383,0,0
+1761745473395,887,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,55521,263,16,16,https://www.ufc.br/,684,0,0
+1761745474030,717,News Page - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,34152,271,16,16,https://www.ufc.br/noticias,610,0,0
+1761745473814,993,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-18,text,true,,55520,263,16,16,https://www.ufc.br/,795,0,0
+1761745474389,489,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-15,text,true,,21132,292,16,16,https://www.ufc.br/editais-e-concursos/graduacao,393,0,0
+1761745474344,748,News Page - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,34138,271,15,15,https://www.ufc.br/noticias,638,0,0
+1761745474129,987,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-26,text,true,,55520,263,15,15,https://www.ufc.br/,787,0,0
+1761745474475,991,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-19,text,true,,55520,263,15,15,https://www.ufc.br/,791,0,0
+1761745474806,751,News Page - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,34138,271,15,15,https://www.ufc.br/noticias,655,0,0
+1761745475339,486,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-16,text,true,,22129,269,15,15,https://www.ufc.br/ensino,383,0,0
+1761745475166,951,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,55520,263,14,14,https://www.ufc.br/,743,0,0
+1761745475272,982,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,55520,263,14,14,https://www.ufc.br/,788,0,0
+1761745475968,417,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-24,text,true,,21132,292,14,14,https://www.ufc.br/editais-e-concursos/graduacao,321,0,0
+1761745476077,449,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-17,text,true,,21132,292,14,14,https://www.ufc.br/editais-e-concursos/graduacao,355,0,0
+1761745475892,963,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,55520,263,13,13,https://www.ufc.br/,761,0,0
+1761745476499,995,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-21,text,true,,55520,263,13,13,https://www.ufc.br/,791,0,0
+1761745477283,449,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-25,text,true,,22129,269,13,13,https://www.ufc.br/ensino,345,0,0
+1761745476992,910,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-29,text,true,,55520,263,13,13,https://www.ufc.br/,705,0,0
+1761745477808,492,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-18,text,true,,22129,269,13,13,https://www.ufc.br/ensino,392,0,0
+1761745478117,441,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-26,text,true,,22136,269,12,12,https://www.ufc.br/ensino,345,0,0
+1761745477749,955,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,55520,263,12,12,https://www.ufc.br/,735,0,0
+1761745478466,602,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-19,text,true,,22129,269,12,12,https://www.ufc.br/ensino,504,0,0
+1761745478093,1047,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,55520,263,11,11,https://www.ufc.br/,843,0,0
+1761745478558,1025,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-23,text,true,,55520,263,11,11,https://www.ufc.br/,831,0,0
+1761745479118,535,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-27,text,true,,20634,271,11,11,https://www.ufc.br/pesquisa,433,0,0
+1761745479255,752,News Page - UFC,200,OK,Navigation Test Group - UFC 1-20,text,true,,34138,271,11,11,https://www.ufc.br/noticias,642,0,0
+1761745479385,1048,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-24,text,true,,55526,263,10,10,https://www.ufc.br/,842,0,0
+1761745479856,721,News Page - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,34139,271,10,10,https://www.ufc.br/noticias,617,0,0
+1761745480495,454,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-21,text,true,,22129,269,10,10,https://www.ufc.br/ensino,356,0,0
+1761745480904,547,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-29,text,true,,20634,271,9,9,https://www.ufc.br/pesquisa,447,0,0
+1761745480733,924,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,55520,263,9,9,https://www.ufc.br/,719,0,0
+1761745481705,713,News Page - UFC,200,OK,Navigation Test Group - UFC 1-22,text,true,,34159,271,9,9,https://www.ufc.br/noticias,606,0,0
+1761745481559,1007,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-26,text,true,,55520,263,8,8,https://www.ufc.br/,803,0,0
+1761745482141,603,News Page - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,34138,271,8,8,https://www.ufc.br/noticias,503,0,0
+1761745482584,486,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-23,text,true,,21138,292,8,8,https://www.ufc.br/editais-e-concursos/graduacao,396,0,0
+1761745482654,955,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-27,text,true,,55520,263,7,7,https://www.ufc.br/,746,0,0
+1761745483434,681,Research Page - UFC (Pesquisa),200,OK,Navigation Test Group - UFC 1-24,text,true,,20627,271,7,7,https://www.ufc.br/pesquisa,578,0,0
+1761745483578,945,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,55519,263,6,6,https://www.ufc.br/,740,0,0
+1761745484657,793,News Page - UFC,200,OK,Navigation Test Group - UFC 1-25,text,true,,34138,271,6,6,https://www.ufc.br/noticias,687,0,0
+1761745484453,1112,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-29,text,true,,55533,263,5,5,https://www.ufc.br/,912,0,0
+1761745485567,560,Admissions Page - UFC (Editais e Concursos),200,OK,Navigation Test Group - UFC 1-26,text,true,,21132,292,5,5,https://www.ufc.br/editais-e-concursos/graduacao,463,0,0
+1761745485745,922,Homepage - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,55520,263,4,4,https://www.ufc.br/,716,0,0
+1761745486610,577,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-27,text,true,,22129,269,4,4,https://www.ufc.br/ensino,474,0,0
+1761745487524,662,News Page - UFC,200,OK,Navigation Test Group - UFC 1-28,text,true,,34152,271,3,3,https://www.ufc.br/noticias,561,0,0
+1761745488566,564,Education Page - UFC (Ensino),200,OK,Navigation Test Group - UFC 1-29,text,true,,22129,269,2,2,https://www.ufc.br/ensino,464,0,0
+1761745489668,1000,News Page - UFC,200,OK,Navigation Test Group - UFC 1-30,text,true,,34138,271,1,1,https://www.ufc.br/noticias,898,0,0
