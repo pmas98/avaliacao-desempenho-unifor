@@ -22,6 +22,9 @@ coverage/
 
 # Bower dependency directory (https://bower.io/)
 bower_components
+# But allow bower_components in JMeter report directories
+!results/**/bower_components
+!results/**/bower_components/**
 
 # node-waf configuration
 .lock-wscript
@@ -77,6 +80,9 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+# But allow dist in JMeter report directories
+!results/**/dist
+!results/**/dist/**
 
 # Gatsby files
 .cache/
