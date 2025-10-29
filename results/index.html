@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seleção de Universidade - Resultados dos Testes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .university-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .university-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .university-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .university-card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .university-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .university-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .university-name {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .university-subtitle {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .btn-view {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .btn-view:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .unifor-card {
+            border-top: 5px solid #0066cc;
+        }
+
+        .ufc-card {
+            border-top: 5px solid #00aa44;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.9;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        .info-box h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .info-box ul {
+            list-style: none;
+            color: #555;
+        }
+
+        .info-box ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .info-box ul li:last-child {
+            border-bottom: none;
+        }
+
+        .info-box ul li::before {
+            content: "✓ ";
+            color: #27ae60;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .university-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .university-name {
+                font-size: 1.5em;
+            }
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background: #27ae60;
+            color: white;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Resultados dos Testes de Performance</h1>
+            <p>Selecione a universidade para visualizar os resultados detalhados</p>
+        </div>
+
+        <div class="university-grid">
+            <a href="unifor/index.html" class="university-card unifor-card">
+                <div class="university-name">UNIFOR</div>
+                <div class="university-subtitle">Universidade de Fortaleza</div>
+                <div class="btn-view">Ver Resultados →</div>
+            </a>
+
+            <a href="ufc/index.html" class="university-card ufc-card">
+                <div class="university-name">UFC</div>
+                <div class="university-subtitle">Universidade Federal do Ceará</div>
+                <div class="btn-view">Ver Resultados →</div>
+            </a>
+        </div>
+
+        <div class="info-box">
+            <ul>
+                <li>Homepage Load Test - Teste de carga da página inicial</li>
+                <li>Navigation Test - Teste de navegação entre páginas</li>
+                <li>Functional Test - Teste de funcionalidades específicas</li>
+                <li>Accessibility Test - Teste de acessibilidade</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
